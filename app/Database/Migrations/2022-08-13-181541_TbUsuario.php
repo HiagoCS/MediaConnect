@@ -18,7 +18,7 @@ class TbUsuario extends Migration
                 'constraint' => 199
             ],
             'email' =>[
-                'type' =>'LONGTEXT'
+                'type' =>'TEXT'
             ],
             'senha' =>[
                 'type' =>'VARCHAR',
