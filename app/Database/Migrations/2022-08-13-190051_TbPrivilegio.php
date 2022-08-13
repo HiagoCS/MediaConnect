@@ -17,6 +17,9 @@ class TbPrivilegio extends Migration
                 'type' =>'VARCHAR',
                 'constraint' => 199
             ],
+            'descricao' =>[
+                'type' =>'LONGTEXT'
+            ],
             'senha' =>[
                 'type' =>'VARCHAR',
                 'constraint' => 199,
