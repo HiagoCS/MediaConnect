@@ -1,0 +1,122 @@
+CRITICAL - 2022-08-15 11:52:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+in APPPATH\Controllers\Usuarios.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 11:52:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+in APPPATH\Controllers\Usuarios.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 11:52:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+in APPPATH\Controllers\Usuarios.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 11:53:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+in APPPATH\Controllers\Usuarios.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 11:53:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+in APPPATH\Controllers\Usuarios.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 11:56:02 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Controllers\Usuarios.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 11:56:03 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Controllers\Usuarios.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 11:57:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+in APPPATH\Controllers\Usuarios.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 11:57:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+in APPPATH\Controllers\Usuarios.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 12:02:35 --> Only single column allowed in Column name.
+in SYSTEMPATH\BaseModel.php on line 551.
+ 1 SYSTEMPATH\BaseModel.php(551): CodeIgniter\Database\Exceptions\DataException::forFindColumnHaveMultipleColumns()
+ 2 APPPATH\Controllers\Usuarios.php(6): CodeIgniter\BaseModel->findColumn('nome, senha')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 12:03:15 --> Call to a member function where() on array
+in APPPATH\Controllers\Usuarios.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 12:25:23 --> Too few arguments to function App\Controllers\Usuarios::index(), 0 passed in C:\wamp64\www\MediaConnect\system\CodeIgniter.php on line 898 and exactly 2 expected
+in APPPATH\Controllers\Usuarios.php on line 3.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 12:25:38 --> Too few arguments to function App\Controllers\Usuarios::index(), 0 passed in C:\wamp64\www\MediaConnect\system\CodeIgniter.php on line 898 and exactly 2 expected
+in APPPATH\Controllers\Usuarios.php on line 3.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 12:25:39 --> Too few arguments to function App\Controllers\Usuarios::index(), 0 passed in C:\wamp64\www\MediaConnect\system\CodeIgniter.php on line 898 and exactly 2 expected
+in APPPATH\Controllers\Usuarios.php on line 3.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 12:25:44 --> Too few arguments to function App\Controllers\Usuarios::index(), 0 passed in C:\wamp64\www\MediaConnect\system\CodeIgniter.php on line 898 and exactly 2 expected
+in APPPATH\Controllers\Usuarios.php on line 3.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 12:26:21 --> Too few arguments to function App\Controllers\Usuarios::index(), 0 passed in C:\wamp64\www\MediaConnect\system\CodeIgniter.php on line 898 and exactly 2 expected
+in APPPATH\Controllers\Usuarios.php on line 3.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 12:26:22 --> Too few arguments to function App\Controllers\Usuarios::index(), 0 passed in C:\wamp64\www\MediaConnect\system\CodeIgniter.php on line 898 and exactly 2 expected
+in APPPATH\Controllers\Usuarios.php on line 3.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 12:26:28 --> Too few arguments to function App\Controllers\Usuarios::index(), 0 passed in C:\wamp64\www\MediaConnect\system\CodeIgniter.php on line 898 and exactly 2 expected
+in APPPATH\Controllers\Usuarios.php on line 3.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 12:26:37 --> Too few arguments to function App\Controllers\Usuarios::index(), 0 passed in C:\wamp64\www\MediaConnect\system\CodeIgniter.php on line 898 and exactly 2 expected
+in APPPATH\Controllers\Usuarios.php on line 3.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 12:34:49 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Usuarios.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
