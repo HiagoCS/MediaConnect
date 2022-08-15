@@ -38,6 +38,7 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 
 $routes->post('/register', 'Usuarios::inserir');
+$routes->post('/login', 'Usuarios::index');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
