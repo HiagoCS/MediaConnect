@@ -39,6 +39,7 @@ $routes->get('/', 'Home::index');
 
 $routes->post('/register', 'Usuarios::inserir');
 $routes->post('/login', 'Usuarios::index');
+$routes->post('/edit', 'Usuarios::editar');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
