@@ -56,5 +56,62 @@
                 }
             }
         }
+        public function editar(){
+            $usuarioModel = new \App\Models\UsuarioModel();
+            if($this->request->getPost('idUsuario')){
+                $usuario = $usuarioModel->find($this->request->getPost('idUsuario'));
+
+                if($usuario->{$this->request->getPost('coluna')}){
+                    if(strtolower($this->request->getPost('coluna')) === "email" || strtolower($this->request->getPost('coluna')) === "e-mail"){
+                        echo "Coluna não pode ser alterada!";
+                        return;
+                    }
+                    $usuario->{$this->request->getPost('coluna')} = $this->request->getPost('nvValor');
+                    if($usuarioModel->update($this->request->getPost('idUsuario'), $usuario)){
+                        //Sucesso na alteração
+                        echo "Sucesso na alteração";
+                    }
+                    else{
+                        //Erro na alteração
+                        echo "Erro na alteração";
+                    }
+                }
+                else{
+                    //Coluna Inexistente!
+                    echo "Coluna Inexistente!";
+                }
+                
+            }
+            else if($this->request->getPost('emailUsuario')){
+                $usuario = $usuarioModel->where('email', $this->request->getPost('emailUsuario'))->find();
+                if(count($usuario) == 1){
+                    $usuario = $usuario[0];
+                    if($usuario->{$this->request->getPost('coluna')}){
+                        if(strtolower($this->request->getPost('coluna')) === "email" || strtolower($this->request->getPost('coluna')) === "e-mail"){
+                            echo "Coluna não pode ser alterada!";
+                            return;
+                        }
+                        $usuario->{$this->request->getPost('coluna')} = $this->request->getPost('nvValor');
+                        if($usuarioModel->update($usuario->{'id'}, $usuario)){
+                            //Sucesso na alteração
+                            echo "Sucesso na alteração";
+                        }
+                        else{
+                            //Erro na alteração
+                            echo "Erro na alteração";
+                        }
+                    }
+                    else{
+                        //Coluna Inexistente!
+                        echo "Coluna Inexistente!";
+                    }
+                }
+                else if(count($usuario) == 0){
+                    //Usuario não existente
+                    echo "Usuario não existente";
+                }
+                
+            }
+        }
     }
 ?>
