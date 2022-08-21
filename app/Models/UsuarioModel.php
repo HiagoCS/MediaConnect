@@ -18,9 +18,11 @@
             $this->set('status', md5(3));
             if($this->insert()){
                 //Sucesso no registro!!
+                echo 'Sucesso no registro!!';
             }
             else{
                 //Erro no registro!!
+                echo "Erro no registro!! Verifique se os itens abaixo estão de acordo!!\nNOME = $nome\nEMAIL = $email\n SENHA = $senha\n CPF = $cpf\nTELEFONE = $telefone\nCEP = $cep";
             }
         }
         public function postEditar($id, $coluna, $nvValor, $email){
@@ -28,26 +30,33 @@
                 if($this->find($id))
                     $usuario = $this->find($id);
                 else{
-                    //Usuario Não existente
+                    //Usuario não encontrado
+                    echo 'Usuario não encontrado (Verificação por ID)';
                     return;
                 }
                 if($usuario->{$coluna}){
                     if(strtolower($coluna) === "email" || strtolower($coluna) === "e-mail"){
                         //Coluna não pode ser alterada
+                        echo 'A coluna EMAIL não deve ser alterada (Verificação por ID)';
                         return;
                     }
                     $usuario->{$coluna} = $nvValor;
                     if($this->update($usuario->{'id'}, $usuario)){
                         //Sucesso na alteração
+                        echo 'Sucesso na alteração (Verificação por ID)';
+                        return;
                     }
                     else{
                         //Erro na alteração
+                        echo "Erro na alteração, Verifique os itens\n ID = $id\n COLUNA = $coluna\n NOVO VALOR = $nvValor\nEMAIL = $email (esta coluna deve ser nula!)";
+                        return;
                     }
                 }
                 else{
                     //Coluna Inexistente!
+                    echo 'Coluna não encontrada (Verificação por ID)!';
+                    return;
                 }
-                
             }
             else if($email){
                 $usuario = $this->where('email', $email)->find();
@@ -56,22 +65,31 @@
                     if($usuario->{$coluna}){
                         if(strtolower($coluna) === "email" || strtolower($coluna) === "e-mail"){
                             //Coluna não pode ser alterada
+                            echo 'A coluna EMAIL não deve ser alterada (Verificação por EMAIL)';
                             return;
                         }
                         $usuario->{$coluna} = $nvValor;
                         if($this->update($usuario->{'id'}, $usuario)){
                             //Sucesso na alteração
+                            echo 'Sucesso na alteração (Verificação por EMAIL)';
+                            return;
                         }
                         else{
                             //Erro na alteração
+                            echo "Erro na alteração, Verifique os itens\n EMAIL = $email\n COLUNA = $coluna\n NOVO VALOR = $nvValor\ID = $id (esta coluna deve ser nula!)";
+                            return;
                         }
                     }
                     else{
                         //Coluna Inexistente!
+                        echo 'Coluna não encontrada (Verificação por EMAIL)!';
+                        return;
                     }
                 }
                 else if(count($usuario) == 0){
                     //Usuario não existente
+                    echo 'Usuario não encontrado (Verificação por EMAIL)';
+                    return;
                 }
                 
             }
@@ -81,9 +99,13 @@
                 $usuario = $this->find($id);
                 if($this->delete($usuario->{'id'})){
                     //Sucesso na exclusão!
+                    echo 'Sucesso na exclusão (Verificação por ID)';
+                    return;
                 }
                 else{
                     //Erro na exclusão!
+                    echo "Erro na exclusão, Verifique os itens\nID = $id\nEMAIL = $email (esta coluna deve ser nula!!)";
+                    return;
                 }
             }
             else if($email){
@@ -92,9 +114,13 @@
                     $usuario = $usuario[0];
                     if($this->delete($usuario->{'id'})){
                         //Sucesso na exclusão!
+                        echo 'Sucesso na exclusão (Verificação por EMAIL)';
+                        return;
                     }
                     else{
                         //Erro na exclusão!
+                        echo "Erro na exclusão, Verifique os itens\nEMAIL = $email\nID = $id (esta coluna deve ser nula!!)";
+                        return;
                     }
                 }
             }
@@ -106,11 +132,13 @@
                 $usuario = $usuario[0];
                 if($usuario->{'status'} != 1){
                     //Precisa de verificação de e-mail!
-                    echo 'Precisa de verificação de e-mail!';
+                    echo 'E-mail não verificado! (Login por Nome)';
+                    return;
                 }
                 else{
                     //Login completo!!
-                    echo 'Login completo!';
+                    echo 'Login completo! (Login por Nome)';
+                    return;
                 }
             }
             else if(count($usuario) == 0){
@@ -119,11 +147,13 @@
                     $usuario = $usuario[0];
                     if($usuario->{'status'} != 1){
                         //Precisa de verificação de e-mail!
-                        echo 'Precisa de verificação de e-mail!';
+                        echo 'E-mail não verificado! (Login por Email)';
+                        return;
                     }
                     else{
                         //Login completo!!
-                        echo 'Login completo!';
+                        echo 'Login completo! (Login por Email)';
+                        return;
                     }
                 }
                 else{
