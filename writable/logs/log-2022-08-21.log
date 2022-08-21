@@ -1,0 +1,110 @@
+CRITICAL - 2022-08-21 12:04:26 --> Call to a member function getMethod() on null
+in APPPATH\Models\UsuarioModel.php on line 11.
+ 1 APPPATH\Controllers\Usuarios.php(41): App\Models\UsuarioModel->postInserir('Hiago', 'hiago8cs@gmail.com', '@senhaForte', '37775433817', '13912345678', '11750000')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 12:06:19 --> Call to a member function getMethod() on null
+in APPPATH\Models\UsuarioModel.php on line 11.
+ 1 APPPATH\Controllers\Usuarios.php(42): App\Models\UsuarioModel->postInserir('Hiago', 'hiago8cs@gmail.com', '@senhaForte', '37775433817', '13912345678', '11750000')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 12:08:03 --> Call to a member function getMethod() on null
+in APPPATH\Models\UsuarioModel.php on line 11.
+ 1 APPPATH\Controllers\Usuarios.php(41): App\Models\UsuarioModel->postInserir('Hiago', 'hiago8cs@gmail.com', '@senhaForte', '37775433817', '13912345678', '11750000')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 12:09:47 --> Call to a member function getMethod() on null
+in APPPATH\Models\UsuarioModel.php on line 11.
+ 1 APPPATH\Controllers\Usuarios.php(41): App\Models\UsuarioModel->postInserir('Hiago', 'hiago8cs@gmail.com', '@senhaForte', '37775433817', '13912345678', '11750000')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 12:10:39 --> Call to a member function getMethod() on null
+in APPPATH\Models\UsuarioModel.php on line 11.
+ 1 APPPATH\Controllers\Usuarios.php(42): App\Models\UsuarioModel->postInserir('Hiago', 'hiago8cs@gmail.com', '@senhaForte', '37775433817', '13912345678', '11750000')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 12:10:53 --> Call to a member function getMethod() on null
+in APPPATH\Models\UsuarioModel.php on line 11.
+ 1 APPPATH\Controllers\Usuarios.php(42): App\Models\UsuarioModel->postInserir('Hiago', 'hiago8cs@gmail.com', '@senhaForte', '37775433817', '13912345678', '11750000')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 12:12:24 --> Call to a member function getMethod() on null
+in APPPATH\Models\UsuarioModel.php on line 11.
+ 1 APPPATH\Controllers\Usuarios.php(44): App\Models\UsuarioModel->postInserir('Hiago', 'hiago8cs@gmail.com', '@senhaForte', '37775433817', '13912345678', '11750000')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 12:12:59 --> Call to a member function getMethod() on null
+in APPPATH\Models\UsuarioModel.php on line 11.
+ 1 APPPATH\Controllers\Usuarios.php(44): App\Models\UsuarioModel->postInserir('Hiago', 'hiago8cs@gmail.com', '@senhaForte', '37775433817', '13912345678', '11750000')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 12:13:10 --> Call to a member function getMethod() on null
+in APPPATH\Models\UsuarioModel.php on line 11.
+ 1 APPPATH\Controllers\Usuarios.php(44): App\Models\UsuarioModel->postInserir('Hiago', 'hiago8cs@gmail.com', '@senhaForte', '37775433817', '13912345678', '11750000')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 12:14:38 --> Call to a member function getMethod() on null
+in APPPATH\Models\UsuarioModel.php on line 11.
+ 1 APPPATH\Controllers\Usuarios.php(42): App\Models\UsuarioModel->postInserir('Hiago', 'hiago8cs@gmail.com', '@senhaForte', '37775433817', '13912345678', '11750000')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 12:14:43 --> Call to a member function getMethod() on null
+in APPPATH\Models\UsuarioModel.php on line 11.
+ 1 APPPATH\Controllers\Usuarios.php(42): App\Models\UsuarioModel->postInserir('Hiago', 'hiago8cs@gmail.com', '@senhaForte', '37775433817', '13912345678', '11750000')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 12:17:42 --> Call to a member function postInserir() on null
+in APPPATH\Controllers\Usuarios.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 12:48:07 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\UsuarioModel.php on line 118.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\UsuarioModel.php', 118, [...])
+ 2 APPPATH\Models\UsuarioModel.php(118): count(null)
+ 3 APPPATH\Controllers\Usuarios.php(6): App\Models\UsuarioModel->postLogin('Hiago', '@senhaForte123')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 12:48:51 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\UsuarioModel.php on line 118.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\UsuarioModel.php', 118, [...])
+ 2 APPPATH\Models\UsuarioModel.php(118): count(null)
+ 3 APPPATH\Controllers\Usuarios.php(6): App\Models\UsuarioModel->postLogin('Hiago', '@senhaForte123')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 12:49:05 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\UsuarioModel.php on line 118.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\UsuarioModel.php', 118, [...])
+ 2 APPPATH\Models\UsuarioModel.php(118): count(null)
+ 3 APPPATH\Controllers\Usuarios.php(6): App\Models\UsuarioModel->postLogin('Sequelado', '@senhaForte')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
