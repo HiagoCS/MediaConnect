@@ -8,11 +8,9 @@
             if(count($userRow) == 1){
                 if($userRow[0]->{'status'} != 1){
                     //Inserir retorno de verificação de e-mail!
-                    echo "E-mail não verificado!!";
                 }
                 else{
                     //Inserir view de login completo!!
-                    echo "Logado com sucesso!!";
                 }
             }
             else if(count($userRow) == 0){
@@ -20,21 +18,17 @@
                 if(count($userRow) == 1){
                     if($userRow[0]->{'status'} != 1){
                         //Inserir retorno de verificação de e-mail!
-                        echo "E-mail não verificado!!";
                     }
                     else{
                         //Inserir view de login completo!!
-                        echo "Logado com sucesso!!";
                     }
                 }
                 else{
                     //Inserir view de erro!!
-                    echo var_dump("Erro no login!!");
                 }
             }
             else{
                 //Inserir view de erro!!
-                echo var_dump("Erro no login!!");
             }
         }
         public function inserir(){
@@ -63,22 +57,19 @@
 
                 if($usuario->{$this->request->getPost('coluna')}){
                     if(strtolower($this->request->getPost('coluna')) === "email" || strtolower($this->request->getPost('coluna')) === "e-mail"){
-                        echo "Coluna não pode ser alterada!";
+                        //Coluna não pode ser alterada
                         return;
                     }
                     $usuario->{$this->request->getPost('coluna')} = $this->request->getPost('nvValor');
                     if($usuarioModel->update($this->request->getPost('idUsuario'), $usuario)){
                         //Sucesso na alteração
-                        echo "Sucesso na alteração";
                     }
                     else{
                         //Erro na alteração
-                        echo "Erro na alteração";
                     }
                 }
                 else{
                     //Coluna Inexistente!
-                    echo "Coluna Inexistente!";
                 }
                 
             }
@@ -88,29 +79,49 @@
                     $usuario = $usuario[0];
                     if($usuario->{$this->request->getPost('coluna')}){
                         if(strtolower($this->request->getPost('coluna')) === "email" || strtolower($this->request->getPost('coluna')) === "e-mail"){
-                            echo "Coluna não pode ser alterada!";
+                            //Coluna não pode ser alterada
                             return;
                         }
                         $usuario->{$this->request->getPost('coluna')} = $this->request->getPost('nvValor');
                         if($usuarioModel->update($usuario->{'id'}, $usuario)){
                             //Sucesso na alteração
-                            echo "Sucesso na alteração";
                         }
                         else{
                             //Erro na alteração
-                            echo "Erro na alteração";
                         }
                     }
                     else{
                         //Coluna Inexistente!
-                        echo "Coluna Inexistente!";
                     }
                 }
                 else if(count($usuario) == 0){
                     //Usuario não existente
-                    echo "Usuario não existente";
                 }
                 
+            }
+        }
+        public function excluir(){
+            $usuarioModel = new \App\Models\UsuarioModel();
+            if($this->request->getPost('idUsuario')){
+                $usuario = $usuarioModel->find($this->request->getPost('idUsuario'));
+                if($usuarioModel->delete($usuario->{'id'})){
+                    //Sucesso na exclusão!
+                }
+                else{
+                    //Erro na exclusão!
+                }
+            }
+            else if($this->request->getPost('emailUsuario')){
+                $usuario = $usuarioModel->where('email', $this->request->getPost('emailUsuario'))->find();
+                if(count($usuario) == 1){
+                    $usuario = $usuario[0];
+                    if($usuarioModel->delete($usuario->{'id'})){
+                        //Sucesso na exclusão!
+                    }
+                    else{
+                        //Erro na exclusão!
+                    }
+                }
             }
         }
     }
