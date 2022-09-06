@@ -13,6 +13,9 @@
             else if($this->request->getPost('nomeInput') && $this->request->getPost('id')){
                 $servicoModel->postSelect($this->request->getPost('id'),$this->request->getPost('nomeInput'));
             }
+            else if(!$this->request->getPost('nomeInput') && !$this->request->getPost('id')){
+                $servicoModel->postSelect(null, null);
+            }
         }
         public function inserir(){
             $servicoModel = new \App\Models\ServicoModel();

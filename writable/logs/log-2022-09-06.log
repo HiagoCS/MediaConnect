@@ -74,3 +74,155 @@ Stack trace:
 #14 C:\Users\Aluno\Desktop\MediaConnect\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
 #15 C:\Users\Aluno\Desktop\MediaConnect\spark(98): CodeIgniter\CLI\Console->run()
 #16 {main}
+ERROR - 2022-09-06 11:50:47 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'mediaconnect_db' in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'mediaconnect_db', 3306, '', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\ServicoModel.php(15): CodeIgniter\Model->insert()
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Servicos.php(21): App\Models\ServicoModel->postInserir('Bancario', '0.5', 'Sei\xC3\xA7ldasdlasda')
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'mediaconnect_db' in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#3 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#5 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\wamp64\www\MediaConnect\app\Models\ServicoModel.php(15): CodeIgniter\Model->insert()
+#7 C:\wamp64\www\MediaConnect\app\Controllers\Servicos.php(21): App\Models\ServicoModel->postInserir('Bancario', '0.5', 'Sei\xC3\xA7ldasdlasda')
+#8 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-06 11:50:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'mediaconnect_db'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_servico` (`nome`, `comissao`, `descricao`) VALUES (:nome:, :comissao:, :descricao:)', [...], false)
+ 3 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Models\ServicoModel.php(15): CodeIgniter\Model->insert()
+ 7 APPPATH\Controllers\Servicos.php(21): App\Models\ServicoModel->postInserir('Bancario', '0.5', 'Seiçldasdlasda')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-06 11:59:26 --> mysqli_sql_exception: Column 'nome' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\ServicoModel.php(25): CodeIgniter\Model->insert()
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Servicos.php(21): App\Models\ServicoModel->postInserir(NULL, '', 'Sei\xC3\xA7ldasdlasda')
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-06 12:00:47 --> mysqli_sql_exception: Column 'nome' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\ServicoModel.php(25): CodeIgniter\Model->insert()
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Servicos.php(21): App\Models\ServicoModel->postInserir(NULL, '', 'Sei\xC3\xA7ldasdlasda')
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-06 12:02:05 --> mysqli_sql_exception: Column 'nome' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\ServicoModel.php(25): CodeIgniter\Model->insert()
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Servicos.php(21): App\Models\ServicoModel->postInserir(NULL, NULL, NULL)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-06 12:06:32 --> Call to undefined function App\Models\verifNull()
+in APPPATH\Models\ServicoModel.php on line 20.
+ 1 APPPATH\Controllers\Servicos.php(21): App\Models\ServicoModel->postInserir(null, null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 12:06:34 --> Call to undefined function App\Models\verifNull()
+in APPPATH\Models\ServicoModel.php on line 20.
+ 1 APPPATH\Controllers\Servicos.php(21): App\Models\ServicoModel->postInserir(null, null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 12:06:47 --> Call to undefined function App\Models\verifNull()
+in APPPATH\Models\ServicoModel.php on line 20.
+ 1 APPPATH\Controllers\Servicos.php(21): App\Models\ServicoModel->postInserir(null, null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-06 12:07:09 --> mysqli_sql_exception: Column 'nome' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\ServicoModel.php(25): CodeIgniter\Model->insert()
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Servicos.php(21): App\Models\ServicoModel->postInserir(NULL, NULL, NULL)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-06 12:12:30 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 88.
+ 1 APPPATH\Controllers\Servicos.php(8): App\Models\ServicoModel->postSelect('2', null)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 12:12:31 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 88.
+ 1 APPPATH\Controllers\Servicos.php(8): App\Models\ServicoModel->postSelect('2', null)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-06 12:17:39 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 104.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Instagramer')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -6,19 +6,32 @@
         protected $primaryKey = 'id';
         protected $allowedFields = ['nome', 'comissao', 'descricao'];
         protected $returnType = 'object';
-
+            
         public function postInserir($nome, $comissao, $descricao){
             //Segundo parametro de set() é o nome do input
             $this->set('nome', $nome);
-            $this->set('comissao', $comissao);
             $this->set('descricao', $descricao);
-            if($this->insert()){
-                //Sucesso no registro!!
-                echo 'Sucesso no registro!!';
+            //Comissao só vai de 0 a 1, em numero flutuante
+            if($comissao > 1){
+                echo "Comissão acima de 100%";
+                return;
+            }
+            else if($comissao < 0){
+                echo "Comissão acima de 0%";
+                return;
             }
             else{
-                //Erro no registro!!
-                echo "Erro no registro!! Verifique se os itens abaixo estão de acordo!!\nNOME = $nome\nCOMISSÃO = $comissao\n DESCRIÇÃO = $descricao";
+                $this->set('comissao', $comissao);
+                if($this->insert()){
+                    //Sucesso no registro!!
+                    echo 'Sucesso no registro!!';
+                    return;
+                }
+                else{
+                    //Erro no registro!!
+                    echo "Erro no registro!! Verifique se os itens abaixo estão de acordo!!\nNOME = $nome\nCOMISSÃO = $comissao\n DESCRIÇÃO = $descricao";
+                    return;
+                }
             }
         }
         public function postEditar($id, $coluna, $nvValor){
@@ -72,7 +85,8 @@
                 if(count($servico) == 1){
                     $servico = $servico[0];
                     //Serviço encontrado com sucesso!!
-                    return $servico;
+                    echo var_dump($servico);
+                    return;
                 }
                 else if(count($servico) == 0){
                     //Erro na busca
@@ -87,7 +101,8 @@
                 if(count($servico) == 1){
                     $servico = $servico[0];
                     //Serviço encontrado com sucesso!!
-                    return $servico;
+                    echo $servico;
+                    return;
                 }
                 else if(count($servico) == 0){
                     //Erro na busca
@@ -96,7 +111,8 @@
                 }
                 else{
                     //Encontrado mais de um serviço de mesmo nome
-                    return $servico;
+                    echo $servico;
+                    return;
                 }
             }
             //Busca por ID e Nome...
@@ -113,6 +129,9 @@
                     return;
                 }
                 //Erro inesperado significa mais de uma coluna com mesmo ID
+            }
+            else{
+                echo "Serviço não encontrado, Verifique os itens\nID = $id\nNOME = $nome";
             }
         }
     }
