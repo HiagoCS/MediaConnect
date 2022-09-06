@@ -16,15 +16,15 @@ class PrivilegioSeeder extends Seeder
             ],
             [
                 'nome' => 'vendedor', 
-                'descricao' => 'Nivel fornecido para quem vai trabalhar no site.'
+                'descricao' => 'Nivel fornecido para quem vai trabalhar no site.',
+                'senha' => null
             ],
             [
                 'nome' => 'cliente', 
-                'descricao' => 'Nivel fornecido para clientes do site.'
+                'descricao' => 'Nivel fornecido para clientes do site.',
+                'senha' => null
             ]
         ];
-        for($i = 0; $i < count($data); $i++){
-            $this->db->table('tb_privilegio')->insert($data[$i]);
-        } 
+        $this->db->table('tb_privilegio')->insertBatch($data);
     }
 }
