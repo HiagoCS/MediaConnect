@@ -1,5 +1,6 @@
 <?php namespace App\Controllers;
     class Usuarios extends BaseController{
+        //Todos os Inputs podem ser renomeados!!
         public function index(){
             //Login
             $usuarioModel = new \App\Models\UsuarioModel();
@@ -16,12 +17,7 @@
         }
         public function editar(){
             $usuarioModel = new \App\Models\UsuarioModel();
-            if($this->request->getPost('idUsuario')){
-                $usuarioModel->postEditar($this->request->getPost('idUsuario'), $this->request->getPost('coluna'), $this->request->getPost('nvValor'), null);
-            }
-            else if($this->request->getPost('emailUsuario')){
-                $usuarioModel->postEditar(null, $this->request->getPost('coluna'), $this->request->getPost('nvValor'), $this->request->getPost('emailUsuario'));
-            }
+            $usuarioModel->postEditar($this->request->getPost('idUsuario'), $this->request->getPost('coluna'), $this->request->getPost('nvValor'), null);
         }
         public function excluir(){
             $usuarioModel = new \App\Models\UsuarioModel();
