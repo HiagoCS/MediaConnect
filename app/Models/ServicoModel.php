@@ -210,11 +210,11 @@
             }
             //Busca por nome...
             else if($nome && !$id){
-                $servico = $this->where(['nome' => $nome])->findAll();
+                $servico = $this->where('nome', $nome)->findAll();
                 if(count($servico) == 1){
                     $servico = $servico[0];
                     //Serviço encontrado com sucesso!!
-                    echo $servico;
+                    echo var_dump($servico);
                     return;
                 }
                 else if(count($servico) == 0){
@@ -224,7 +224,7 @@
                 }
                 else{
                     //Encontrado mais de um serviço de mesmo nome
-                    echo $servico;
+                    echo var_dump($servico);
                     return;
                 }
             }
@@ -234,7 +234,7 @@
                 if(count($servico) == 1){
                     $servico = $servico[0];
                     //Serviço encontrado com sucesso!!
-                    return $servico;
+                    return var_dump($servico);
                 }
                 else if(count($servico) == 0){
                     //Erro na busca

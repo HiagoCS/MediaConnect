@@ -4,55 +4,59 @@
         public function index(){
             //Busca
             $servicoModel = new \App\Models\ServicoModel();
-            if($this->request->getPost('id') && !$this->request->getPost('nomeInput')){
-                $servicoModel->postSelect($this->request->getPost('id'),null);
-            }       
-            else if($this->request->getPost('nomeInput') && !$this->request->getPost('id')){
-                $servicoModel->postSelect(null,$this->request->getPost('nomeInput'));
+            $id = $this->request->getPost('id');
+            $nome = $this->request->getPost('nome');
+            if(!$id && !$nome){
+                echo "Erro: nenhum parametro POST entregue!!";
+                return;
             }
-            else if($this->request->getPost('nomeInput') && $this->request->getPost('id')){
-                $servicoModel->postSelect($this->request->getPost('id'),$this->request->getPost('nomeInput'));
-            }
-            else if(!$this->request->getPost('nomeInput') && !$this->request->getPost('id')){
-                $servicoModel->postSelect(null, null);
-            }
+            $servicoModel->postSelect($id, $nome);
         }
         public function inserir(){
             $servicoModel = new \App\Models\ServicoModel();
-            $servicoModel->postInserir($this->request->getPost('nomeInput'), 
-            $this->request->getPost('comissaoInput'),
-            $this->request->getPost('descricaoInput'));
+            $nome = $this->request->getPost('nomeInput');
+            $comissao = $this->request->getPost('comissaoInput'); 
+            $descricao = $this->request->getPost('descricaoInput');
+            if(!$nome && !$comissao && !$descricao){
+                echo "Erro: nenhum parametro POST entregue!!";
+                return;
+            }
+
+            $servicoModel->postInserir($nome, $comissao, $descricao);
         }
         public function editar(){
             $servicoModel = new \App\Models\ServicoModel();
-            //$servicoModel->postEditar($this->request->getPost('id'), $this->request->getPost('nomeInput'), $this->request->getPost('coluna'), $this->request->getPost('nvValor'));
-            if($this->request->getPost('id') && !$this->request->getPost('nomeInput')){
-                $servicoModel->postEditar($this->request->getPost('id'), null, $this->request->getPost('coluna'), $this->request->getPost('nvValor'));
+            $id = $this->request->getPost('id');
+            $nome = $this->request->getPost('nomeInput');
+            $coluna = $this->request->getPost('coluna');
+            if(strtolower($coluna) == 'comissao'){
+                if($this->request->getPost('nvValor') > 1){
+                    echo "Erro: Comissão acima de 100%";
+                    return;
+                }
+                else if($this->request->getPost('nvValor') < 0){
+                    echo "Erro: Comissão abaixo de 0%";
+                    return;
+                }
+                else{
+                    $nvValor = $this->request->getPost('nvValor');
+                }
             }
-            else if(!$this->request->getPost('id') && $this->request->getPost('nomeInput')){
-                $servicoModel->postEditar(null, $this->request->getPost('nomeInput'), $this->request->getPost('coluna'), $this->request->getPost('nvValor'));
-            }
-            else if($this->request->getPost('id') && $this->request->getPost('nomeInput')){
-                $servicoModel->postEditar($this->request->getPost('id'), $this->request->getPost('nomeInput'), $this->request->getPost('coluna'), $this->request->getPost('nvValor'));
-            }
-            else{
+
+            if(!$id && !$nome && !$coluna && !$nvValor){
                 echo "Erro: nenhum parametro POST entregue!!";
             }
+            $servicoModel->postEditar($id, $nome, $coluna, $nvValor);
         }
         public function excluir(){
             $servicoModel = new \App\Models\ServicoModel();
-            if($this->request->getPost('id') && !$this->request->getPost('nomeInput')){
-                $servicoModel->postDelete($this->request->getPost('id'), null);
-            }
-            else if(!$this->request->getPost('id') && $this->request->getPost('nomeInput')){
-                $servicoModel->postDelete(null, $this->request->getPost('nomeInput'));
-            }
-            else if($this->request->getPost('id') && $this->request->getPost('nomeInput')){
-                $servicoModel->postDelete($this->request->getPost('id'), $this->request->getPost('nomeInput'));
-            }
-            else{
+            $id = $this->request->getPost('id');
+            $nome = $this->request->getPost('nomeInput');
+           
+            if(!$id && !$nome){
                 echo "Erro: nenhum parametro POST entregue!!";
             }
+            $servicoModel->postDelete($id, $nome);
         }
     }
 ?>

@@ -1,0 +1,419 @@
+CRITICAL - 2022-09-07 16:53:36 --> Attempt to assign property 'comissao' of non-object
+in APPPATH\Controllers\Servicos.php on line 30.
+ 1 APPPATH\Controllers\Servicos.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assign property \'comissao\' of non-object', 'APPPATH\\Controllers\\Servicos.php', 30, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 16:54:36 --> Attempt to assign property 'nome' of non-object
+in APPPATH\Controllers\Servicos.php on line 28.
+ 1 APPPATH\Controllers\Servicos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assign property \'nome\' of non-object', 'APPPATH\\Controllers\\Servicos.php', 28, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 16:54:49 --> Attempt to assign property 'nome' of non-object
+in APPPATH\Controllers\Servicos.php on line 28.
+ 1 APPPATH\Controllers\Servicos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assign property \'nome\' of non-object', 'APPPATH\\Controllers\\Servicos.php', 28, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 16:54:50 --> Attempt to assign property 'nome' of non-object
+in APPPATH\Controllers\Servicos.php on line 28.
+ 1 APPPATH\Controllers\Servicos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assign property \'nome\' of non-object', 'APPPATH\\Controllers\\Servicos.php', 28, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 16:54:50 --> Attempt to assign property 'nome' of non-object
+in APPPATH\Controllers\Servicos.php on line 28.
+ 1 APPPATH\Controllers\Servicos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assign property \'nome\' of non-object', 'APPPATH\\Controllers\\Servicos.php', 28, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 16:54:51 --> Attempt to assign property 'nome' of non-object
+in APPPATH\Controllers\Servicos.php on line 28.
+ 1 APPPATH\Controllers\Servicos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assign property \'nome\' of non-object', 'APPPATH\\Controllers\\Servicos.php', 28, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 16:55:29 --> Attempt to assign property 'nome' of non-object
+in APPPATH\Controllers\Servicos.php on line 28.
+ 1 APPPATH\Controllers\Servicos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assign property \'nome\' of non-object', 'APPPATH\\Controllers\\Servicos.php', 28, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 16:55:58 --> Attempt to assign property 'nome' of non-object
+in APPPATH\Controllers\Servicos.php on line 28.
+ 1 APPPATH\Controllers\Servicos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assign property \'nome\' of non-object', 'APPPATH\\Controllers\\Servicos.php', 28, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 16:55:59 --> Attempt to assign property 'nome' of non-object
+in APPPATH\Controllers\Servicos.php on line 28.
+ 1 APPPATH\Controllers\Servicos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assign property \'nome\' of non-object', 'APPPATH\\Controllers\\Servicos.php', 28, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 16:56:00 --> Attempt to assign property 'nome' of non-object
+in APPPATH\Controllers\Servicos.php on line 28.
+ 1 APPPATH\Controllers\Servicos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assign property \'nome\' of non-object', 'APPPATH\\Controllers\\Servicos.php', 28, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 16:56:00 --> Attempt to assign property 'nome' of non-object
+in APPPATH\Controllers\Servicos.php on line 28.
+ 1 APPPATH\Controllers\Servicos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assign property \'nome\' of non-object', 'APPPATH\\Controllers\\Servicos.php', 28, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 16:56:00 --> Attempt to assign property 'nome' of non-object
+in APPPATH\Controllers\Servicos.php on line 28.
+ 1 APPPATH\Controllers\Servicos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assign property \'nome\' of non-object', 'APPPATH\\Controllers\\Servicos.php', 28, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 16:56:14 --> Attempt to assign property 'nome' of non-object
+in APPPATH\Controllers\Servicos.php on line 28.
+ 1 APPPATH\Controllers\Servicos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assign property \'nome\' of non-object', 'APPPATH\\Controllers\\Servicos.php', 28, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 16:59:40 --> mysqli_sql_exception: Column 'nome' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\ServicoModel.php(25): CodeIgniter\Model->insert()
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Servicos.php(30): App\Models\ServicoModel->postInserir(NULL, '0.7', 'edita umbigo de...')
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-07 16:59:48 --> mysqli_sql_exception: Column 'descricao' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\ServicoModel.php(25): CodeIgniter\Model->insert()
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Servicos.php(30): App\Models\ServicoModel->postInserir('Designer de Int...', NULL, NULL)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-07 16:59:54 --> mysqli_sql_exception: Column 'descricao' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\ServicoModel.php(25): CodeIgniter\Model->insert()
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Servicos.php(30): App\Models\ServicoModel->postInserir('Designer de Int...', NULL, NULL)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Servicos->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-07 17:02:04 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:02:15 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:02:35 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:04:10 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:04:11 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:04:12 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:04:12 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:04:12 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:04:13 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:04:13 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:04:13 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:04:13 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:04:13 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:04:13 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:04:59 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:08:58 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:09:21 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:09:27 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:09:52 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:09:54 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:11:10 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(12): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:11:14 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(12): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:11:15 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(12): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:11:16 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(12): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:11:16 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(12): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:11:17 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(12): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:11:17 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(12): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:11:17 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(12): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:11:17 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(12): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:11:17 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(12): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:11:17 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(12): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:11:18 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(12): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:11:22 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(12): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:11:52 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(12): App\Models\ServicoModel->postSelect(null, 'Designer')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:13:41 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:14:00 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:15:38 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:15:55 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(11): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:20:31 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(13): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 17:20:41 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\ServicoModel.php on line 217.
+ 1 APPPATH\Controllers\Servicos.php(13): App\Models\ServicoModel->postSelect(null, 'Designer de Interiores')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Servicos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
