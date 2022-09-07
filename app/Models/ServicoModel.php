@@ -13,11 +13,11 @@
             $this->set('descricao', $descricao);
             //Comissao só vai de 0 a 1, em numero flutuante
             if($comissao > 1){
-                echo "Comissão acima de 100%";
+                echo "Erro: Comissão acima de 100%";
                 return;
             }
             else if($comissao < 0){
-                echo "Comissão acima de 0%";
+                echo "Erro: Comissão abaixo de 0%";
                 return;
             }
             else{
@@ -34,8 +34,8 @@
                 }
             }
         }
-        public function postEditar($id, $coluna, $nvValor){
-            if($id){
+        public function postEditar($id, $nome, $coluna, $nvValor){
+            if($id && !$nome){
                 if($this->find($id))
                     $servico = $this->find($id);
                 else{
@@ -52,13 +52,77 @@
                     }
                     else{
                         //Erro na alteração
-                        echo "Erro na alteração, Verifique os itens\n ID = $id\n COLUNA = $coluna\n NOVO VALOR = $nvValor";
+                        echo "Erro na alteração, Verifique os itens\n ID = $id\n Nome = $nome (esta coluna deve ser NULA!)\n COLUNA = $coluna\n NOVO VALOR = $nvValor";
                         return;
                     }
                 }
                 else{
                     //Coluna Inexistente!
                     echo 'Coluna não encontrada (Verificação por ID)!';
+                    return;
+                }
+            }
+            else if($nome && !$id){
+                $servico = $this->where('nome', $nome)->findAll();
+                if(count($servico) == 1){
+                    $servico = $servico[0];
+                    if($servico->{$coluna}){
+                        $servico->{$coluna} = $nvValor;
+                        if($this->update($servico->{'id'}, $servico)){
+                            //Sucesso na alteração
+                            echo 'Sucesso na alteração (Verificação por Nome)';
+                            return;
+                        }
+                        else{
+                            //Erro na alteração
+                            echo "Erro na alteração, Verifique os itens\n ID = $id (esta coluna deve ser nula!)\n NOME = $nome\n COLUNA = $coluna\n NOVO VALOR = $nvValor";
+                            return;
+                        }
+                    }
+                    else{
+                        //Coluna Inexistente!
+                        echo 'Coluna não encontrada (Verificação por Nome)!';
+                        return;
+                    }
+                }
+                else if(count($servico) == 0){
+                    //Serviço não encontrado
+                    echo 'Serviço não encontrado (Verificação por Nome)';
+                    return;
+                }
+                else{
+                    //Foi encontrado mais de um serviço com o mesmo nome!!
+                    //Aqui pode executar multiplas edições ou retornar mensagem de erro!!
+                    echo "Foi encontrado mais de um serviço com o mesmo nome";
+                    return;
+                }
+            }
+            else{
+                $servico = $this->where(['id'=>$id, 'nome'=> $nome])->findAll();
+                if(count($servico) == 1){
+                    $servico = $servico[0];
+                    if($servico->{$coluna}){
+                        $servico->{$coluna} = $nvValor;
+                        if($this->update($servico->{'id'}, $servico)){
+                            //Sucesso na alteração
+                            echo 'Sucesso na alteração (Verificação por Nome e ID)';
+                            return;
+                        }
+                        else{
+                            //Erro na alteração
+                            echo "Erro na alteração, Verifique os itens\n ID = $id \n NOME = $nome\n COLUNA = $coluna\n NOVO VALOR = $nvValor";
+                            return;
+                        }
+                    }
+                    else{
+                        //Coluna Inexistente!
+                        echo 'Coluna não encontrada (Verificação por Nome e ID)!';
+                        return;
+                    }
+                }
+                else if(count($servico) == 0){
+                    //Serviço não encontrado
+                    echo 'Serviço não encontrado (Verificação por Nome e ID)';
                     return;
                 }
             }

@@ -25,7 +25,19 @@
         }
         public function editar(){
             $servicoModel = new \App\Models\ServicoModel();
-            $servicoModel->postEditar($this->request->getPost('id'), $this->request->getPost('coluna'), $this->request->getPost('nvValor'));
+            //$servicoModel->postEditar($this->request->getPost('id'), $this->request->getPost('nomeInput'), $this->request->getPost('coluna'), $this->request->getPost('nvValor'));
+            if($this->request->getPost('id') && !$this->request->getPost('nomeInput')){
+                $servicoModel->postEditar($this->request->getPost('id'), null, $this->request->getPost('coluna'), $this->request->getPost('nvValor'));
+            }
+            else if(!$this->request->getPost('id') && $this->request->getPost('nomeInput')){
+                $servicoModel->postEditar(null, $this->request->getPost('nomeInput'), $this->request->getPost('coluna'), $this->request->getPost('nvValor'));
+            }
+            else if($this->request->getPost('id') && $this->request->getPost('nomeInput')){
+                $servicoModel->postEditar($this->request->getPost('id'), $this->request->getPost('nomeInput'), $this->request->getPost('coluna'), $this->request->getPost('nvValor'));
+            }
+            else{
+                echo "Erro: nenhum parametro POST entregue!!";
+            }
         }
         public function excluir(){
             $servicoModel = new \App\Models\ServicoModel();
