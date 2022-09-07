@@ -127,8 +127,9 @@
                 }
             }
         }
-        public function postDelete($id){
-            if($id){
+
+        public function postDelete($id, $nome){
+            if($id && !$nome){
                 $servico = $this->find($id);
                 if($this->delete($servico->{'id'})){
                     //Sucesso na exclusão!
@@ -138,6 +139,54 @@
                 else{
                     //Erro na exclusão!
                     echo "Erro na exclusão, Verifique os itens\nID = $id";
+                    return;
+                }
+            }
+            else if($nome && !$id){
+                $servico = $this->where('nome', $nome)->findAll();
+                if(count($servico) == 1){
+                    $servico = $servico[0];
+                    if($this->delete($servico->{'id'})){
+                        //Sucesso na exclusão!
+                        echo 'Sucesso na exclusão (Verificação por Nome)';
+                        return;
+                    }
+                    else{
+                        //Erro na exclusão!
+                        echo "Erro na exclusão, Verifique os itens\nID = $id";
+                        return;
+                    }
+                }
+                else if(count($servico) == 0){
+                    //Serviço não encontrado
+                    echo 'Serviço não encontrado (Verificação por Nome)';
+                    return;
+                }
+                else{
+                    //Foi encontrado mais de um serviço com o mesmo nome!!
+                    //Aqui pode executar multiplas edições ou retornar mensagem de erro!!
+                    echo "Foi encontrado mais de um serviço com o mesmo nome";
+                    return;
+                }
+            }
+            else{
+                $servico = $this->where(['id'=>$id, 'nome'=> $nome])->findAll();
+                if(count($servico) == 1){
+                    $servico = $servico[0];
+                    if($this->delete($servico->{'id'})){
+                        //Sucesso na exclusão!
+                        echo 'Sucesso na exclusão (Verificação por Nome e ID)';
+                        return;
+                    }
+                    else{
+                        //Erro na exclusão!
+                        echo "Erro na exclusão, Verifique os itens\nID = $id";
+                        return;
+                    }
+                }
+                else if(count($servico) == 0){
+                    //Serviço não encontrado
+                    echo 'Serviço não encontrado (Verificação por Nome e ID)';
                     return;
                 }
             }

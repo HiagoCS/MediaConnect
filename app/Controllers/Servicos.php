@@ -41,7 +41,18 @@
         }
         public function excluir(){
             $servicoModel = new \App\Models\ServicoModel();
-            $servicoModel->postDelete($this->request->getPost('id'));
+            if($this->request->getPost('id') && !$this->request->getPost('nomeInput')){
+                $servicoModel->postDelete($this->request->getPost('id'), null);
+            }
+            else if(!$this->request->getPost('id') && $this->request->getPost('nomeInput')){
+                $servicoModel->postDelete(null, $this->request->getPost('nomeInput'));
+            }
+            else if($this->request->getPost('id') && $this->request->getPost('nomeInput')){
+                $servicoModel->postDelete($this->request->getPost('id'), $this->request->getPost('nomeInput'));
+            }
+            else{
+                echo "Erro: nenhum parametro POST entregue!!";
+            }
         }
     }
 ?>
