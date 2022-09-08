@@ -7,22 +7,22 @@
         protected $allowedFields = ['nome', 'email', 'senha', 'cpf', 'telefone', 'cep', 'status'];
         protected $returnType = 'object';
 
-        public function postInserir($nome, $email, $senha, $cpf, $telefone, $cep){
+        public function postInserir($user_data){
             //Segundo parametro de set() é o nome do input
-            $this->set('nome', $nome);
-            $this->set('email', $email);
-            $this->set('senha', md5($senha));
-            $this->set('cpf', $cpf);
-            $this->set('telefone', $telefone);
-            $this->set('cep', $cep);
-            $this->set('status', md5(3));
-            if($this->insert()){
+            if($this->insert($user_data)){
                 //Sucesso no registro!!
                 echo 'Sucesso no registro!!';
             }
             else{
                 //Erro no registro!!
-                echo "Erro no registro!! Verifique se os itens abaixo estão de acordo!!\nNOME = $nome\nEMAIL = $email\n SENHA = $senha\n CPF = $cpf\nTELEFONE = $telefone\nCEP = $cep";
+                echo "Erro no registro!! Verifique se os itens abaixo estão de acordo!!
+                    \nNOME = ".$user_data->{'nome'}."
+                    \nEMAIL = ".$user_data->{'email'}."
+                    \nSENHA = ".$user_data->{'senha'}."
+                    \nCPF = ".$user_data->{'cpf'}."
+                    \nTELEFONE = ".$user_data->{'telefone'}."
+                    \nCEP = ".$user_data->{'cep'};
+                return;
             }
         }
         public function postEditar($id, $coluna, $nvValor, $email){

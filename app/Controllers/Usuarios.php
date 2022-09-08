@@ -1,4 +1,12 @@
 <?php namespace App\Controllers;
+    $userdata = [
+        'nome'=> null,
+        'email'=> null,
+        'senha'=> null,
+        'cpf'=> null,
+        'telefone'=> null,
+        'cep'=> null
+    ];
     class Usuarios extends BaseController{
         //Todos os Inputs podem ser renomeados!!
         public function index(){
@@ -8,12 +16,16 @@
         }
         public function inserir(){
             $usuarioModel = new \App\Models\UsuarioModel();
-            $usuarioModel->postInserir($this->request->getPost('nomeInput'), 
-            $this->request->getPost('emailInput'),
-            $this->request->getPost('senhaInput'), 
-            $this->request->getPost('cpfInput'), 
-            $this->request->getPost('telInput'),
-            $this->request->getPost('cepInput'));
+            
+            $userdata->{'nome'} = $this->request->getPost('nomeInput');
+            $userdata->{'email'} = $this->request->getPost('emailInput');
+            $userdata->{'senha'} = $this->request->getPost('senhaInput');
+            $userdata->{'cpf'} = $this->request->getPost('cpfInput');
+            $userdata->{'telefone'} = $this->request->getPost('telefoneInput');
+            $userdata->{'cep'} = $this->request->getPost('cepInput');
+
+            $usuarioModel->postInserir($userdata);
+           
         }
         public function editar(){
             $usuarioModel = new \App\Models\UsuarioModel();
@@ -29,4 +41,5 @@
             }
         }
     }
+    
 ?>
