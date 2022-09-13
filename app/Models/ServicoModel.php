@@ -29,7 +29,7 @@
                 }
                 else{
                     //Erro no registro!!
-                    echo "Erro no registro!! Verifique se os itens abaixo estão de acordo!!\nNOME = $nome\nCOMISSÃO = $comissao\n DESCRIÇÃO = $descricao";
+                    echo "Erro no registro!! Verifique se os itens abaixo estão de acordo!!<br>NOME = $nome<br>COMISSÃO = $comissao<br>DESCRIÇÃO = $descricao";
                     return;
                 }
             }
@@ -52,7 +52,7 @@
                     }
                     else{
                         //Erro na alteração
-                        echo "Erro na alteração, Verifique os itens\n ID = $id\n Nome = $nome (esta coluna deve ser NULA!)\n COLUNA = $coluna\n NOVO VALOR = $nvValor";
+                        echo "Erro na alteração, Verifique os itens<br> ID = $id<br> Nome = $nome (esta coluna deve ser NULA!)<br> COLUNA = $coluna<br> NOVO VALOR = $nvValor";
                         return;
                     }
                 }
@@ -75,7 +75,7 @@
                         }
                         else{
                             //Erro na alteração
-                            echo "Erro na alteração, Verifique os itens\n ID = $id (esta coluna deve ser nula!)\n NOME = $nome\n COLUNA = $coluna\n NOVO VALOR = $nvValor";
+                            echo "Erro na alteração, Verifique os itens<br>ID = $id (esta coluna deve ser nula!)<br>NOME = $nome<br>COLUNA = $coluna<br>NOVO VALOR = $nvValor";
                             return;
                         }
                     }
@@ -110,7 +110,7 @@
                         }
                         else{
                             //Erro na alteração
-                            echo "Erro na alteração, Verifique os itens\n ID = $id \n NOME = $nome\n COLUNA = $coluna\n NOVO VALOR = $nvValor";
+                            echo "Erro na alteração, Verifique os itens<br>ID = $id <br>NOME = $nome<br>COLUNA = $coluna<br>NOVO VALOR = $nvValor";
                             return;
                         }
                     }
@@ -138,7 +138,7 @@
                 }
                 else{
                     //Erro na exclusão!
-                    echo "Erro na exclusão, Verifique os itens\nID = $id";
+                    echo "Erro na exclusão, Verifique os itens<br>ID = $id";
                     return;
                 }
             }
@@ -153,7 +153,7 @@
                     }
                     else{
                         //Erro na exclusão!
-                        echo "Erro na exclusão, Verifique os itens\nID = $id";
+                        echo "Erro na exclusão, Verifique os itens<br>ID = $id";
                         return;
                     }
                 }
@@ -180,7 +180,7 @@
                     }
                     else{
                         //Erro na exclusão!
-                        echo "Erro na exclusão, Verifique os itens\nID = $id";
+                        echo "Erro na exclusão, Verifique os itens<br>ID = $id";
                         return;
                     }
                 }
@@ -203,7 +203,7 @@
                 }
                 else if(count($servico) == 0){
                     //Erro na busca
-                    echo "Serviço não encontrado (Verificação por ID), Verifique os itens\nID = $id\nNOME = $nome (esta coluna deve ser NULA!)";
+                    echo "Serviço não encontrado (Verificação por ID), Verifique os itens<br>ID = $id<br>NOME = $nome (esta coluna deve ser NULA!)";
                     return;
                 }
                 //Erro inesperado significa mais de uma coluna com mesmo ID
@@ -219,7 +219,7 @@
                 }
                 else if(count($servico) == 0){
                     //Erro na busca
-                    echo "Serviço não encontrado (Verificação por NOME), Verifique os itens\nNOME = $nome\nID = $id (esta coluna deve ser NULA!)";
+                    echo "Serviço não encontrado (Verificação por NOME), Verifique os itens<br>NOME = $nome<br>ID = $id (esta coluna deve ser NULA!)";
                     return;
                 }
                 else{
@@ -238,13 +238,13 @@
                 }
                 else if(count($servico) == 0){
                     //Erro na busca
-                    echo "Serviço não encontrado (Verificação por ID e NOME), Verifique os itens\nID = $id\nNOME = $nome";
+                    echo "Serviço não encontrado (Verificação por ID e NOME), Verifique os itens<br>ID = $id<br>NOME = $nome";
                     return;
                 }
                 //Erro inesperado significa mais de uma coluna com mesmo ID
             }
             else{
-                echo "Serviço não encontrado, Verifique os itens\nID = $id\nNOME = $nome";
+                echo "Serviço não encontrado, Verifique os itens<br>ID = $id<br>NOME = $nome";
             }
         }
     }
