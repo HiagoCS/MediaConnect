@@ -15,13 +15,11 @@
             }
             else{
                 //Erro no registro!!
-                echo "Erro no registro!! Verifique se os itens abaixo estão de acordo!!
-                    \nNOME = ".$user_data->{'nome'}."
-                    \nEMAIL = ".$user_data->{'email'}."
-                    \nSENHA = ".$user_data->{'senha'}."
-                    \nCPF = ".$user_data->{'cpf'}."
-                    \nTELEFONE = ".$user_data->{'telefone'}."
-                    \nCEP = ".$user_data->{'cep'};
+                echo "Erro no registro!! Verifique se os itens abaixo estão de acordo!!<br>";
+                for($i = 0; $i < count($user_data); $i++){
+                    echo "<br>".strtoupper(key($user_data))." = ".current($user_data)."<br>";
+                    next($user_data);
+                }
                 return;
             }
         }
@@ -48,7 +46,7 @@
                     }
                     else{
                         //Erro na alteração
-                        echo "Erro na alteração, Verifique os itens\n ID = $id\n COLUNA = $coluna\n NOVO VALOR = $nvValor\nEMAIL = $email (esta coluna deve ser nula!)";
+                        echo "Erro na alteração, Verifique os itens<br>ID = $id<br> COLUNA = $coluna<br>NOVO VALOR = $nvValor<br>EMAIL = $email (esta coluna deve ser nula!)";
                         return;
                     }
                 }
@@ -76,7 +74,7 @@
                         }
                         else{
                             //Erro na alteração
-                            echo "Erro na alteração, Verifique os itens\n EMAIL = $email\n COLUNA = $coluna\n NOVO VALOR = $nvValor\ID = $id (esta coluna deve ser nula!)";
+                            echo "Erro na alteração, Verifique os itens<br>EMAIL = $email<br>COLUNA = $coluna<br>NOVO VALOR = $nvValor<br>ID = $id (esta coluna deve ser nula!)";
                             return;
                         }
                     }
@@ -104,7 +102,7 @@
                 }
                 else{
                     //Erro na exclusão!
-                    echo "Erro na exclusão, Verifique os itens\nID = $id\nEMAIL = $email (esta coluna deve ser nula!!)";
+                    echo "Erro na exclusão, Verifique os itens<br>ID = $id<br>EMAIL = $email (esta coluna deve ser nula!!)";
                     return;
                 }
             }
@@ -119,7 +117,7 @@
                     }
                     else{
                         //Erro na exclusão!
-                        echo "Erro na exclusão, Verifique os itens\nEMAIL = $email\nID = $id (esta coluna deve ser nula!!)";
+                        echo "Erro na exclusão, Verifique os itens<br>EMAIL = $email<br>ID = $id (esta coluna deve ser nula!!)";
                         return;
                     }
                 }
