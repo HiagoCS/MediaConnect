@@ -52,8 +52,8 @@ $routes->post('/service/delete', 'Servicos::excluir');
 //Rotas de Anuncio
 $routes->post('/register', 'Anuncios::inserir');
 $routes->post('/search', 'Anuncios::index');
-$routes->post('/edit', 'Servicos::editar');
-$routes->post('/delete', 'Servicos::excluir');
+$routes->post('/edit', 'Anuncios::editar');
+$routes->post('/delete', 'Anuncios::excluir');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
