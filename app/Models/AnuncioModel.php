@@ -244,7 +244,7 @@
                 }
             }
             //Busca por ID e Nome...
-            else if($nome && $id){
+            else if($id && $nome){
                 $anuncio = $this->where(['id' => $id, 'nome' => $nome])->findAll();
                 if(count($anuncio) == 1){
                     $anuncio = $anuncio[0];
