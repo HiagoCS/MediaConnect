@@ -59,4 +59,49 @@
                 return;
             }
         }
+        public function postEditar($id_avaliacao, $id_cliente, $nvValor){
+            $avaliacao = $this->where('id_cliente', $id_cliente)->find($id_avaliacao);
+            if(gettype($nvValor) == 'integer'){
+                $avaliacao->{'num_avaliacao'} = $nvValor;
+                if($this->update($avaliacao->{'id'}, $avaliacao)){
+                    $anuncioModel = new \App\Models\AnuncioModel();
+                    if($anuncioModel->updateAvaliacao($avaliacao->{'id_anuncio'})){
+                        //Média de avaliação do anuncio atualizada
+                        echo "Sucesso no registro!!";
+                        return;
+                    }
+                    else{
+                        //Erro na atualização da média
+                        echo "Erro na atualização da média, Verifique os itens<br> ID_AVALIACAO = $id_avaliacao<br> ID_CLIENTE = $id_cliente<br> NOVO VALOR = $nvValor";
+                        return;
+                    }
+                }
+                else{
+                    //Erro na alteração
+                    echo "Erro na alteração, Verifique os itens<br> ID_AVALIACAO = $id_avaliacao<br> ID_CLIENTE = $id_cliente<br> NOVO VALOR = $nvValor";
+                    return;
+                }
+            }   
+            else{
+                $avaliacao->{'msg_avaliacao'} = $nvValor;
+                $anuncioModel = new \App\Models\AnuncioModel();
+                if($this->update($avaliacao->{'id'}, $avaliacao)){
+                    if($anuncioModel->updateAvaliacao($avaliacao->{'id_anuncio'})){
+                        //Média de avaliação do anuncio atualizada
+                        echo "Sucesso no registro!!";
+                        return;
+                    }
+                    else{
+                        //Erro na atualização da média
+                        echo "Erro na atualização da média, Verifique os itens<br> ID_AVALIACAO = $id_avaliacao<br> ID_CLIENTE = $id_cliente<br> NOVO VALOR = $nvValor";
+                        return;
+                    }
+                }
+                else{
+                    //Erro na alteração
+                    echo "Erro na alteração, Verifique os itens<br> ID_AVALIACAO = $id_avaliacao<br> ID_CLIENTE = $id_cliente<br> NOVO VALOR = $nvValor";
+                    return;
+                }
+            }
+        }
     }
