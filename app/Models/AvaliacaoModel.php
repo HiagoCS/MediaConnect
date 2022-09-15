@@ -107,9 +107,17 @@
         public function postDelete($id_avaliacao, $id_cliente){
             $avaliacao = $this->where('id_cliente', $id_cliente)->find($id_avaliacao);
             if($this->delete($avaliacao->{'id'})){
-                //Exclusão bem sucedida!!
-                echo "Sucesso na exclusão!!";
-                return;
+                $anuncioModel = new \App\Models\AnuncioModel();
+                if($anuncioModel->updateAvaliacao($avaliacao->{'id_anuncio'})){
+                    //Média de avaliação do anuncio atualizada
+                    echo "Sucesso na exclusão!!";
+                    return;
+                }
+                else{
+                    //Erro na atualização da média
+                    echo "Erro na atualização da média, Verifique os itens<br> ID_AVALIACAO = $id_avaliacao<br> ID_CLIENTE = $id_cliente";
+                    return;
+                }
             }
             else{
                 //Erro na exclusão
