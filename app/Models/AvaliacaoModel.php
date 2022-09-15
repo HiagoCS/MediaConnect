@@ -125,4 +125,14 @@
                 return;
             }
         }
+        public function postSelect($id_anuncio){
+            $avaliacoes = $this->where('id_anuncio', $id_anuncio)->findAll();
+            if($avaliacoes){
+                return var_dump($avaliacoes);
+            }
+            else{
+                echo "Sem avaliações!!";
+                return;
+            }
+        }
     }
