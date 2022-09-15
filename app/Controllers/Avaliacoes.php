@@ -1,7 +1,11 @@
 <?php namespace App\Controllers;
     class Avaliacoes extends BaseController{
         public function index(){
-
+            //Busca
+            $avaliacaoModel = new \App\Models\AvaliacaoModel();
+            if(!$this->request->getPost('id_anuncio'))
+                return "Erro: nenhum parametro POST entregue!!";
+            $avaliacaoModel->postSelect($this->request->getPost('id_anuncio'));
         }
         public function inserir(){
             $avaliacaoModel = new \App\Models\AvaliacaoModel();
