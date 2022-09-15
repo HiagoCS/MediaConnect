@@ -13,6 +13,23 @@
             );
             $avaliacaoModel->postInserir((array) $avaliacaodata);
         }
+        public function editar(){
+            $avaliacaoModel = new \App\Models\AvaliacaoModel();
+            if(intval($this->request->getPost('nvValor'))){
+                $avaliacaoModel->postEditar(
+                    $this->request->getPost('id_avaliacao') == '' ? null : $this->request->getPost('id_avaliacao'),
+                    $this->request->getPost('id_cliente') == '' ? null : $this->request->getPost('id_cliente'),
+                    $this->request->getPost('nvValor') == '' ? null : intval($this->request->getPost('nvValor'))
+                );
+            }
+            else{
+                $avaliacaoModel->postEditar(
+                    $this->request->getPost('id_avaliacao') == '' ? null : $this->request->getPost('id_avaliacao'),
+                    $this->request->getPost('id_cliente') == '' ? null : $this->request->getPost('id_cliente'),
+                    $this->request->getPost('nvValor') == '' ? null : $this->request->getPost('nvValor')
+                );
+            }
+        }
     }
 
     class Avaliacao{
