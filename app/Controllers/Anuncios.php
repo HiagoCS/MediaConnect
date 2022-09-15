@@ -30,19 +30,7 @@
             $id = $this->request->getPost('id');
             $nome = $this->request->getPost('nomeInput');
             $coluna = $this->request->getPost('coluna');
-            if(strtolower($coluna) == 'comissao'){
-                if($this->request->getPost('nvValor') > 1){
-                    echo "Erro: Comissão acima de 100%";
-                    return;
-                }
-                else if($this->request->getPost('nvValor') < 0){
-                    echo "Erro: Comissão abaixo de 0%";
-                    return;
-                }
-                else{
-                    $nvValor = $this->request->getPost('nvValor');
-                }
-            }
+            $nvValor = $this->request->getPost('nvValor');
 
             if(!$id && !$nome && !$coluna && !$nvValor){
                 echo "Erro: nenhum parametro POST entregue!!";
