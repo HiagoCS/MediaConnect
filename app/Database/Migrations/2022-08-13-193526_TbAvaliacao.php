@@ -19,7 +19,7 @@ class TbAvaliacao extends Migration
             'id_anuncio' =>[
                 'type' =>'INT'
             ],
-            'num_avalicao' =>[
+            'num_avaliacao' =>[
                 'type' => 'INT',
                 'constraint' =>10
             ],
