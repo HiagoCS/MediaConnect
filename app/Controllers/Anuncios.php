@@ -5,7 +5,7 @@
             //Busca
             $anuncioModel = new \App\Models\AnuncioModel();
             $id = $this->request->getPost('id');
-            $nome = $this->request->getPost('nome');
+            $nome = $this->request->getPost('nomeInput');
             if(!$id && !$nome){
                 echo "Erro: nenhum parametro POST entregue!!";
                 return;
@@ -44,6 +44,7 @@
            
             if(!$id && !$nome){
                 echo "Erro: nenhum parametro POST entregue!!";
+                return;
             }
             $anuncioModel->postDelete($id, $nome);
         }
