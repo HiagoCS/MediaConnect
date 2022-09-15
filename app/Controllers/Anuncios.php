@@ -54,8 +54,8 @@
             $this->id_servico = $id_servico == '' ? null : $id_servico;
             $this->nome = $nome == '' ? null : $nome;
             $this->valor = $valor == '' ? null : $valor;
-            $this->qt_vendas = $qt_vendas == '' ? null : $qt_vendas;
-            $this->md_avaliacao = $md_avaliacao == '' ? null : $md_avaliacao;
+            $this->qt_vendas = 0;
+            $this->md_avaliacao = 0;
             $this->descricao = $descricao == '' ? null : $descricao;
 
         }
