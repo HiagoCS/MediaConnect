@@ -50,10 +50,11 @@ $routes->post('/service/edit', 'Servicos::editar');
 $routes->post('/service/delete', 'Servicos::excluir');
 
 //Rotas de Anuncio
-$routes->post('/register', 'Anuncios::inserir');
-$routes->post('/search', 'Anuncios::index');
-$routes->post('/edit', 'Anuncios::editar');
-$routes->post('/delete', 'Anuncios::excluir');
+$routes->post('/ad/register', 'Anuncios::inserir');
+$routes->post('/ad/search', 'Anuncios::index');
+$routes->post('/ad/edit', 'Anuncios::editar');
+$routes->post('/ad/delete', 'Anuncios::excluir');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
