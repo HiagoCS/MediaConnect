@@ -55,6 +55,8 @@ $routes->post('/ad/search', 'Anuncios::index');
 $routes->post('/ad/edit', 'Anuncios::editar');
 $routes->post('/ad/delete', 'Anuncios::excluir');
 
+//Rotas de Avaliação
+$routes->post('/register', 'Avaliacoes::inserir');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
