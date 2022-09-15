@@ -104,4 +104,17 @@
                 }
             }
         }
+        public function postDelete($id_avaliacao, $id_cliente){
+            $avaliacao = $this->where('id_cliente', $id_cliente)->find($id_avaliacao);
+            if($this->delete($avaliacao->{'id'})){
+                //Exclusão bem sucedida!!
+                echo "Sucesso na exclusão!!";
+                return;
+            }
+            else{
+                //Erro na exclusão
+                echo "Erro na exclusão!! Verifique os itens<br> ID_AVALICAO = $id_avaliacao<br> ID_CLIENTE = $id_cliente";
+                return;
+            }
+        }
     }
