@@ -265,7 +265,7 @@
         public function updateAvaliacao($id_anuncio){
             $avaliacaoModel = new \App\Models\AvaliacaoModel();
             $array_avalicao = $avaliacaoModel->where('id_anuncio', $id_anuncio)->findColumn('num_avaliacao');
-            $md_avalicao = array_sum($array_avalicao) / count($array_avalicao);
+            $md_avalicao = $array_avalicao != null ? array_sum($array_avalicao) / count($array_avalicao) : 0;
             $anuncio = $this->find($id_anuncio);
             $anuncio->{'md_avaliacao'} = $md_avalicao;
             if($this->update($anuncio->{'id'}, $anuncio)){
