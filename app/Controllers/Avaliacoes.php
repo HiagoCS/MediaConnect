@@ -30,6 +30,13 @@
                 );
             }
         }
+        public function excluir(){
+            $avaliacaoModel = new \App\Models\AvaliacaoModel();
+            $avaliacaoModel->postDelete(
+                $this->request->getPost('id_avaliacao'), 
+                $this->request->getPost('id_cliente')
+            );
+        }
     }
 
     class Avaliacao{
