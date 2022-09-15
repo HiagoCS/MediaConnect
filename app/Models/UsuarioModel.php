@@ -6,16 +6,27 @@
         protected $primaryKey = 'id';
         protected $allowedFields = ['nome', 'email', 'senha', 'cpf', 'telefone', 'cep', 'status'];
         protected $returnType = 'object';
-
+        
         public function postInserir($user_data){
             //Segundo parametro de set() é o nome do input
-            if($this->insert($user_data)){
-                //Sucesso no registro!!
-                echo 'Sucesso no registro!!';
+            if(count($this->where('email', $user_data['email'])->findAll()) == 0){
+                if($this->insert($user_data)){
+                    //Sucesso no registro!!
+                    echo 'Sucesso no registro!!';
+                }
+                else{
+                    //Erro no registro!!
+                    echo "Erro no registro!! Verifique se os itens abaixo estão de acordo!!<br>";
+                    for($i = 0; $i < count($user_data); $i++){
+                        echo "<br>".strtoupper(key($user_data))." = ".current($user_data)."<br>";
+                        next($user_data);
+                    }
+                    return;
+                }
             }
             else{
-                //Erro no registro!!
-                echo "Erro no registro!! Verifique se os itens abaixo estão de acordo!!<br>";
+                //Erro no registro, email já existe!!
+                echo "Erro no registro, email já existe!! Verifique se os itens abaixo estão de acordo!!<br>";
                 for($i = 0; $i < count($user_data); $i++){
                     echo "<br>".strtoupper(key($user_data))." = ".current($user_data)."<br>";
                     next($user_data);
