@@ -153,7 +153,7 @@
                 }
                 else{
                     //Erro na exclusão!
-                    echo "Erro na exclusão, Verifique os itens<br>ID = $id";
+                    echo "Erro na exclusão (Verificação por ID), Verifique os itens<br>ID = $id";
                     return;
                 }
             }
