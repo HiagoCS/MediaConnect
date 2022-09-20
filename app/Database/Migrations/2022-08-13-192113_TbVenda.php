@@ -20,7 +20,7 @@ class TbVenda extends Migration
                 'type' =>'INT'
             ],
             'status' =>[
-                'type' =>'VARCHAR',
+                'type' =>'TINYINT',
                 'constraint' => 199
             ]
         ]);
