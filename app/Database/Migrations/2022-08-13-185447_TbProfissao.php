@@ -4,7 +4,7 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class TbServico extends Migration
+class TbProfissao extends Migration
 {
     public function up()
     {
@@ -26,11 +26,11 @@ class TbServico extends Migration
             ]
             ]);
         $this->forge->addPrimaryKey('id', TRUE);
-        $this->forge->createTable('tb_servico', TRUE);
+        $this->forge->createTable('tb_profissao', TRUE);
     }
 
     public function down()
     {
-        $this->forge->dropTable('tb_servico', TRUE);
+        $this->forge->dropTable('tb_profissao', TRUE);
     }
 }

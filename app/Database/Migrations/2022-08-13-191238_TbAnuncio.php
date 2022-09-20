@@ -16,7 +16,7 @@ class TbAnuncio extends Migration
             'id_vendedor' =>[
                 'type' =>'INT'
             ],
-            'id_servico' =>[
+            'id_profissao' =>[
                 'type' =>'INT'
             ],
             'nome' =>[
@@ -38,7 +38,7 @@ class TbAnuncio extends Migration
             ]
         ]);
         $this->forge->addForeignKey('id_vendedor', 'tb_usuario', 'id');
-        $this->forge->addForeignKey('id_servico', 'tb_servico', 'id');
+        $this->forge->addForeignKey('id_profissao', 'tb_profissao', 'id');
         $this->forge->addPrimaryKey('id', TRUE);
         $this->forge->createTable('tb_anuncio', TRUE);
     }

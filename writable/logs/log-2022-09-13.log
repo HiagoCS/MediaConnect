@@ -1,0 +1,591 @@
+CRITICAL - 2022-09-13 14:45:30 --> Creating default object from empty value
+in APPPATH\Controllers\Usuarios.php on line 20.
+ 1 APPPATH\Controllers\Usuarios.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating default object from empty value', 'APPPATH\\Controllers\\Usuarios.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:45:48 --> Creating default object from empty value
+in APPPATH\Controllers\Usuarios.php on line 20.
+ 1 APPPATH\Controllers\Usuarios.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating default object from empty value', 'APPPATH\\Controllers\\Usuarios.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:46:37 --> Creating default object from empty value
+in APPPATH\Controllers\Usuarios.php on line 20.
+ 1 APPPATH\Controllers\Usuarios.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating default object from empty value', 'APPPATH\\Controllers\\Usuarios.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:46:40 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\UsuarioModel.php on line 146.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\UsuarioModel.php', 146, [...])
+ 2 APPPATH\Models\UsuarioModel.php(146): count(null)
+ 3 APPPATH\Controllers\Usuarios.php(15): App\Models\UsuarioModel->postLogin('Sequelado', '@senhaForte')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:46:41 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\UsuarioModel.php on line 146.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\UsuarioModel.php', 146, [...])
+ 2 APPPATH\Models\UsuarioModel.php(146): count(null)
+ 3 APPPATH\Controllers\Usuarios.php(15): App\Models\UsuarioModel->postLogin('Sequelado', '@senhaForte')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:47:21 --> Creating default object from empty value
+in APPPATH\Controllers\Usuarios.php on line 20.
+ 1 APPPATH\Controllers\Usuarios.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating default object from empty value', 'APPPATH\\Controllers\\Usuarios.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:47:22 --> Creating default object from empty value
+in APPPATH\Controllers\Usuarios.php on line 20.
+ 1 APPPATH\Controllers\Usuarios.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating default object from empty value', 'APPPATH\\Controllers\\Usuarios.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:47:32 --> Creating default object from empty value
+in APPPATH\Controllers\Usuarios.php on line 20.
+ 1 APPPATH\Controllers\Usuarios.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating default object from empty value', 'APPPATH\\Controllers\\Usuarios.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:47:33 --> Creating default object from empty value
+in APPPATH\Controllers\Usuarios.php on line 20.
+ 1 APPPATH\Controllers\Usuarios.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating default object from empty value', 'APPPATH\\Controllers\\Usuarios.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:47:34 --> Creating default object from empty value
+in APPPATH\Controllers\Usuarios.php on line 20.
+ 1 APPPATH\Controllers\Usuarios.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating default object from empty value', 'APPPATH\\Controllers\\Usuarios.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:47:34 --> Creating default object from empty value
+in APPPATH\Controllers\Usuarios.php on line 20.
+ 1 APPPATH\Controllers\Usuarios.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating default object from empty value', 'APPPATH\\Controllers\\Usuarios.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:47:34 --> Creating default object from empty value
+in APPPATH\Controllers\Usuarios.php on line 20.
+ 1 APPPATH\Controllers\Usuarios.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating default object from empty value', 'APPPATH\\Controllers\\Usuarios.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:47:34 --> Creating default object from empty value
+in APPPATH\Controllers\Usuarios.php on line 20.
+ 1 APPPATH\Controllers\Usuarios.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating default object from empty value', 'APPPATH\\Controllers\\Usuarios.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:48:06 --> Creating default object from empty value
+in APPPATH\Controllers\Usuarios.php on line 20.
+ 1 APPPATH\Controllers\Usuarios.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating default object from empty value', 'APPPATH\\Controllers\\Usuarios.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:48:57 --> Creating default object from empty value
+in APPPATH\Controllers\Usuarios.php on line 20.
+ 1 APPPATH\Controllers\Usuarios.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating default object from empty value', 'APPPATH\\Controllers\\Usuarios.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:48:58 --> Creating default object from empty value
+in APPPATH\Controllers\Usuarios.php on line 20.
+ 1 APPPATH\Controllers\Usuarios.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating default object from empty value', 'APPPATH\\Controllers\\Usuarios.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:48:58 --> Creating default object from empty value
+in APPPATH\Controllers\Usuarios.php on line 20.
+ 1 APPPATH\Controllers\Usuarios.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating default object from empty value', 'APPPATH\\Controllers\\Usuarios.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:48:59 --> Creating default object from empty value
+in APPPATH\Controllers\Usuarios.php on line 20.
+ 1 APPPATH\Controllers\Usuarios.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating default object from empty value', 'APPPATH\\Controllers\\Usuarios.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 14:56:00 --> Too few arguments to function App\Controllers\Usuarios::__construct(), 0 passed in C:\wamp64\www\MediaConnect\system\CodeIgniter.php on line 860 and exactly 6 expected
+in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 15:12:23 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1596.
+ 1 SYSTEMPATH\BaseModel.php(1596): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray([], 'insert')
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert(Object(App\Controllers\Usuario), true)
+ 4 APPPATH\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Object(App\Controllers\Usuario))
+ 5 APPPATH\Controllers\Usuarios.php(28): App\Models\UsuarioModel->postInserir(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 15:15:16 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1596.
+ 1 SYSTEMPATH\BaseModel.php(1596): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray([], 'insert')
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert(Object(App\Controllers\Usuario), true)
+ 4 APPPATH\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Object(App\Controllers\Usuario))
+ 5 APPPATH\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-13 15:22:56 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-13 15:29:00 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-13 15:29:00 --> key() expects parameter 1 to be array, null given
+in APPPATH\Models\UsuarioModel.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'key() expects parameter 1 to be array, null given', 'APPPATH\\Models\\UsuarioModel.php', 20, [...])
+ 2 APPPATH\Models\UsuarioModel.php(20): key(null)
+ 3 APPPATH\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir([...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-13 15:29:51 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-13 15:29:51 --> key() expects parameter 1 to be array, null given
+in APPPATH\Models\UsuarioModel.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'key() expects parameter 1 to be array, null given', 'APPPATH\\Models\\UsuarioModel.php', 18, [...])
+ 2 APPPATH\Models\UsuarioModel.php(18): key(null)
+ 3 APPPATH\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir([...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-13 15:30:00 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-13 15:30:00 --> key() expects parameter 1 to be array, null given
+in APPPATH\Models\UsuarioModel.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'key() expects parameter 1 to be array, null given', 'APPPATH\\Models\\UsuarioModel.php', 18, [...])
+ 2 APPPATH\Models\UsuarioModel.php(18): key(null)
+ 3 APPPATH\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir([...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-13 15:30:34 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-13 15:30:47 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-13 15:31:08 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-13 15:31:47 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-13 15:31:57 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-13 15:32:15 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-13 15:32:33 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-13 15:32:55 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-13 15:36:57 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-13 15:37:14 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-13 15:37:22 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-13 15:51:24 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-13 15:51:42 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-13 15:51:54 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-13 15:52:50 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-13 15:54:12 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-13 15:54:27 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-13 15:55:40 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-13 15:55:57 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-13 16:09:36 --> mysqli_sql_exception: Column 'cpf' cannot be null in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\MediaConnect\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\MediaConnect\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\MediaConnect\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\MediaConnect\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\MediaConnect\app\Models\UsuarioModel.php(12): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\MediaConnect\app\Controllers\Usuarios.php(21): App\Models\UsuarioModel->postInserir(Array)
+#9 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(898): App\Controllers\Usuarios->inserir()
+#10 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\MediaConnect\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-13 16:49:42 --> mysqli_sql_exception: Incorrect table definition; there can be only one auto column and it must be defined as a key in C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\MediaConnect\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\wamp64\www\MediaConnect\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\wamp64\www\MediaConnect\system\Database\Forge.php(509): CodeIgniter\Database\BaseConnection->query()
+#4 C:\wamp64\www\MediaConnect\app\Database\Migrations\2022-08-13-185447_TbServico.php(29): CodeIgniter\Database\Forge->createTable()
+#5 C:\wamp64\www\MediaConnect\system\Database\MigrationRunner.php(868): App\Database\Migrations\TbServico->up()
+#6 C:\wamp64\www\MediaConnect\system\Database\MigrationRunner.php(187): CodeIgniter\Database\MigrationRunner->migrate()
+#7 C:\wamp64\www\MediaConnect\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 C:\wamp64\www\MediaConnect\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run()
+#9 C:\wamp64\www\MediaConnect\system\CLI\BaseCommand.php(112): CodeIgniter\CLI\Commands->run()
+#10 C:\wamp64\www\MediaConnect\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call()
+#11 C:\wamp64\www\MediaConnect\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\MigrateRefresh->run()
+#12 C:\wamp64\www\MediaConnect\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run()
+#13 C:\wamp64\www\MediaConnect\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index()
+#14 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(891): CodeIgniter\CLI\CommandRunner->_remap()
+#15 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#16 C:\wamp64\www\MediaConnect\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#17 C:\wamp64\www\MediaConnect\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#18 C:\wamp64\www\MediaConnect\spark(98): CodeIgniter\CLI\Console->run()
+#19 {main}

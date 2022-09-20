@@ -44,10 +44,10 @@ $routes->post('/user/edit', 'Usuarios::editar');
 $routes->post('/user/delete', 'Usuarios::excluir');
 
 //Rotas de Servico
-$routes->post('/service/register', 'Servicos::inserir');
-$routes->post('/service/search', 'Servicos::index');
-$routes->post('/service/edit', 'Servicos::editar');
-$routes->post('/service/delete', 'Servicos::excluir');
+$routes->post('/service/register', 'Profissoes::inserir');
+$routes->post('/service/search', 'Profissoes::index');
+$routes->post('/service/edit', 'Profissoes::editar');
+$routes->post('/service/delete', 'Profissoes::excluir');
 
 //Rotas de Anuncio
 $routes->post('/ad/register', 'Anuncios::inserir');

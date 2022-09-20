@@ -4,15 +4,15 @@
     class AnuncioModel extends Model{
         protected $table = 'tb_anuncio';
         protected $primaryKey = 'id';
-        protected $allowedFields = ['id_vendedor', 'id_servico', 'nome', 'valor', 'qt_vendas', 'md_avaliacao', 'descricao'];
+        protected $allowedFields = ['id_vendedor', 'id_profissao', 'nome', 'valor', 'qt_vendas', 'md_avaliacao', 'descricao'];
         protected $returnType = 'object';
 
         public function postInserir($anuncio_data){
             //Segundo parametro de set() é o nome do input
             $usuarioModel = new \App\Models\UsuarioModel();
-            $servicoModel = new \App\Models\ServicoModel();
+            $profissaoModel = new \App\Models\ProfissaoModel();
             if($usuarioModel->find($anuncio_data['id_vendedor'])){
-                if($servicoModel->find($anuncio_data['id_servico'])){
+                if($profissaoModel->find($anuncio_data['id_profissao'])){
                     if($this->insert($anuncio_data)){
                         //Sucesso no registro!!
                         echo 'Sucesso no registro!!';
@@ -28,8 +28,8 @@
                     }
                 }
                 else{
-                    //Erro na inserção de serviço!!
-                    echo "Erro na inserção de serviço!! Verifique se os itens abaixo estão de acordo!!<br>";
+                    //Erro na inserção de profissão!!
+                    echo "Erro na inserção de profissão!! Verifique se os itens abaixo estão de acordo!!<br>";
                     for($i = 0; $i < count($anuncio_data); $i++){
                         echo "<br>".strtoupper(key($anuncio_data))." = ".current($anuncio_data)."<br>";
                         next($anuncio_data);

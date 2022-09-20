@@ -1,8 +1,8 @@
 <?php namespace App\Models;
     use CodeIgniter\Model;
 
-    class ServicoModel extends Model{
-        protected $table = 'tb_servico';
+    class ProfissaoModel extends Model{
+        protected $table = 'tb_profissao';
         protected $primaryKey = 'id';
         protected $allowedFields = ['nome', 'comissao', 'descricao'];
         protected $returnType = 'object';
@@ -37,15 +37,15 @@
         public function postEditar($id, $nome, $coluna, $nvValor){
             if($id && !$nome){
                 if($this->find($id))
-                    $servico = $this->find($id);
+                    $profissao = $this->find($id);
                 else{
-                    //Serviço não encontrado
-                    echo 'Serviço não encontrado (Verificação por ID)';
+                    //Profissão não encontrada
+                    echo 'Profissão não encontrada (Verificação por ID)';
                     return;
                 }
-                if($servico->{$coluna}){
-                    $servico->{$coluna} = $nvValor;
-                    if($this->update($servico->{'id'}, $servico)){
+                if($profissao->{$coluna}){
+                    $profissao->{$coluna} = $nvValor;
+                    if($this->update($profissao->{'id'}, $profissao)){
                         //Sucesso na alteração
                         echo 'Sucesso na alteração (Verificação por ID)';
                         return;
@@ -63,12 +63,12 @@
                 }
             }
             else if($nome && !$id){
-                $servico = $this->where('nome', $nome)->findAll();
-                if(count($servico) == 1){
-                    $servico = $servico[0];
-                    if($servico->{$coluna}){
-                        $servico->{$coluna} = $nvValor;
-                        if($this->update($servico->{'id'}, $servico)){
+                $profissao = $this->where('nome', $nome)->findAll();
+                if(count($profissao) == 1){
+                    $profissao = $profissao[0];
+                    if($profissao->{$coluna}){
+                        $profissao->{$coluna} = $nvValor;
+                        if($this->update($profissao->{'id'}, $profissao)){
                             //Sucesso na alteração
                             echo 'Sucesso na alteração (Verificação por Nome)';
                             return;
@@ -85,25 +85,25 @@
                         return;
                     }
                 }
-                else if(count($servico) == 0){
-                    //Serviço não encontrado
-                    echo 'Serviço não encontrado (Verificação por Nome)';
+                else if(count($profissao) == 0){
+                    //Profissão não encontrada
+                    echo 'Profissão não encontrada (Verificação por Nome)';
                     return;
                 }
                 else{
-                    //Foi encontrado mais de um serviço com o mesmo nome!!
+                    //Foi encontrado mais de uma profissão com o mesmo nome!!
                     //Aqui pode executar multiplas edições ou retornar mensagem de erro!!
-                    echo "Foi encontrado mais de um serviço com o mesmo nome";
+                    echo "Foi encontrado mais de uma profissão com o mesmo nome";
                     return;
                 }
             }
             else{
-                $servico = $this->where(['id'=>$id, 'nome'=> $nome])->findAll();
-                if(count($servico) == 1){
-                    $servico = $servico[0];
-                    if($servico->{$coluna}){
-                        $servico->{$coluna} = $nvValor;
-                        if($this->update($servico->{'id'}, $servico)){
+                $profissao = $this->where(['id'=>$id, 'nome'=> $nome])->findAll();
+                if(count($profissao) == 1){
+                    $profissao = $profissao[0];
+                    if($profissao->{$coluna}){
+                        $profissao->{$coluna} = $nvValor;
+                        if($this->update($profissao->{'id'}, $profissao)){
                             //Sucesso na alteração
                             echo 'Sucesso na alteração (Verificação por Nome e ID)';
                             return;
@@ -120,9 +120,9 @@
                         return;
                     }
                 }
-                else if(count($servico) == 0){
-                    //Serviço não encontrado
-                    echo 'Serviço não encontrado (Verificação por Nome e ID)';
+                else if(count($profissao) == 0){
+                    //Profissão não encontrada
+                    echo 'Profissão não encontrada (Verificação por Nome e ID)';
                     return;
                 }
             }
@@ -130,8 +130,8 @@
 
         public function postDelete($id, $nome){
             if($id && !$nome){
-                $servico = $this->find($id);
-                if($this->delete($servico->{'id'})){
+                $profissao = $this->find($id);
+                if($this->delete($profissao->{'id'})){
                     //Sucesso na exclusão!
                     echo 'Sucesso na exclusão (Verificação por ID)';
                     return;
@@ -143,10 +143,10 @@
                 }
             }
             else if($nome && !$id){
-                $servico = $this->where('nome', $nome)->findAll();
-                if(count($servico) == 1){
-                    $servico = $servico[0];
-                    if($this->delete($servico->{'id'})){
+                $profissao = $this->where('nome', $nome)->findAll();
+                if(count($profissao) == 1){
+                    $profissao = $profissao[0];
+                    if($this->delete($profissao->{'id'})){
                         //Sucesso na exclusão!
                         echo 'Sucesso na exclusão (Verificação por Nome)';
                         return;
@@ -157,23 +157,23 @@
                         return;
                     }
                 }
-                else if(count($servico) == 0){
-                    //Serviço não encontrado
-                    echo 'Serviço não encontrado (Verificação por Nome)';
+                else if(count($profissao) == 0){
+                    //Profissão não encontrada
+                    echo 'Profissão não encontrada (Verificação por Nome)';
                     return;
                 }
                 else{
-                    //Foi encontrado mais de um serviço com o mesmo nome!!
+                    //Foi encontrado mais de uma profissão com o mesmo nome!!
                     //Aqui pode executar multiplas edições ou retornar mensagem de erro!!
-                    echo "Foi encontrado mais de um serviço com o mesmo nome";
+                    echo "Foi encontrado mais de uma profissão com o mesmo nome";
                     return;
                 }
             }
             else{
-                $servico = $this->where(['id'=>$id, 'nome'=> $nome])->findAll();
-                if(count($servico) == 1){
-                    $servico = $servico[0];
-                    if($this->delete($servico->{'id'})){
+                $profissao = $this->where(['id'=>$id, 'nome'=> $nome])->findAll();
+                if(count($profissao) == 1){
+                    $profissao = $profissao[0];
+                    if($this->delete($profissao->{'id'})){
                         //Sucesso na exclusão!
                         echo 'Sucesso na exclusão (Verificação por Nome e ID)';
                         return;
@@ -184,9 +184,9 @@
                         return;
                     }
                 }
-                else if(count($servico) == 0){
-                    //Serviço não encontrado
-                    echo 'Serviço não encontrado (Verificação por Nome e ID)';
+                else if(count($profissao) == 0){
+                    //Profissão não encontrada
+                    echo 'Profissão não encontrada (Verificação por Nome e ID)';
                     return;
                 }
             }
@@ -194,57 +194,57 @@
         public function postSelect($id, $nome){
             //Buscar por ID...
             if($id && !$nome){
-                $servico = $this->where(['id' => $id])->findAll();
-                if(count($servico) == 1){
-                    $servico = $servico[0];
-                    //Serviço encontrado com sucesso!!
-                    echo var_dump($servico);
+                $profissao = $this->where(['id' => $id])->findAll();
+                if(count($profissao) == 1){
+                    $profissao = $profissao[0];
+                    //Profissão encontrada com sucesso!!
+                    echo var_dump($profissao);
                     return;
                 }
-                else if(count($servico) == 0){
+                else if(count($profissao) == 0){
                     //Erro na busca
-                    echo "Serviço não encontrado (Verificação por ID), Verifique os itens<br>ID = $id<br>NOME = $nome (esta coluna deve ser NULA!)";
+                    echo "Profissão não encontrada (Verificação por ID), Verifique os itens<br>ID = $id<br>NOME = $nome (esta coluna deve ser NULA!)";
                     return;
                 }
                 //Erro inesperado significa mais de uma coluna com mesmo ID
             }
             //Busca por nome...
             else if($nome && !$id){
-                $servico = $this->where('nome', $nome)->findAll();
-                if(count($servico) == 1){
-                    $servico = $servico[0];
-                    //Serviço encontrado com sucesso!!
-                    echo var_dump($servico);
+                $profissao = $this->where('nome', $nome)->findAll();
+                if(count($profissao) == 1){
+                    $profissao = $profissao[0];
+                    //Profissão encontrada com sucesso!!
+                    echo var_dump($profissao);
                     return;
                 }
-                else if(count($servico) == 0){
+                else if(count($profissao) == 0){
                     //Erro na busca
-                    echo "Serviço não encontrado (Verificação por NOME), Verifique os itens<br>NOME = $nome<br>ID = $id (esta coluna deve ser NULA!)";
+                    echo "Profissão não encontrada (Verificação por NOME), Verifique os itens<br>NOME = $nome<br>ID = $id (esta coluna deve ser NULA!)";
                     return;
                 }
                 else{
-                    //Encontrado mais de um serviço de mesmo nome
-                    echo var_dump($servico);
+                    //Encontrado mais de uma profissão de mesmo nome
+                    echo var_dump($profissao);
                     return;
                 }
             }
             //Busca por ID e Nome...
             else if($nome && $id){
-                $servico = $this->where(['id' => $id, 'nome' => $nome])->findAll();
-                if(count($servico) == 1){
-                    $servico = $servico[0];
-                    //Serviço encontrado com sucesso!!
-                    return var_dump($servico);
+                $profissao = $this->where(['id' => $id, 'nome' => $nome])->findAll();
+                if(count($profissao) == 1){
+                    $profissao = $profissao[0];
+                    //Profissão encontrada com sucesso!!
+                    return var_dump($profissao);
                 }
-                else if(count($servico) == 0){
+                else if(count($profissao) == 0){
                     //Erro na busca
-                    echo "Serviço não encontrado (Verificação por ID e NOME), Verifique os itens<br>ID = $id<br>NOME = $nome";
+                    echo "Profissão não encontrada (Verificação por ID e NOME), Verifique os itens<br>ID = $id<br>NOME = $nome";
                     return;
                 }
                 //Erro inesperado significa mais de uma coluna com mesmo ID
             }
             else{
-                echo "Serviço não encontrado, Verifique os itens<br>ID = $id<br>NOME = $nome";
+                echo "Profissão não encontrada, Verifique os itens<br>ID = $id<br>NOME = $nome";
             }
         }
     }

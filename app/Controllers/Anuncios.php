@@ -16,7 +16,7 @@
             $anuncioModel = new \App\Models\AnuncioModel();
             $anunciodata = new Anuncio(
                 $this->request->getPost('id_vendedor'), 
-                $this->request->getPost('id_servico'),
+                $this->request->getPost('id_profissao'),
                 $this->request->getPost('nomeInput'),
                 $this->request->getPost('valorInput'),
                 $this->request->getPost('qt_vendas'),
@@ -50,9 +50,9 @@
         }
     }
     class Anuncio{
-        public function __construct($id_vendedor, $id_servico, $nome, $valor, $qt_vendas, $md_avaliacao, $descricao){
+        public function __construct($id_vendedor, $id_profissao, $nome, $valor, $qt_vendas, $md_avaliacao, $descricao){
             $this->id_vendedor = $id_vendedor == '' ? null : $id_vendedor;
-            $this->id_servico = $id_servico == '' ? null : $id_servico;
+            $this->id_profissao = $id_profissao == '' ? null : $id_profissao;
             $this->nome = $nome == '' ? null : $nome;
             $this->valor = $valor == '' ? null : $valor;
             $this->qt_vendas = 0;
