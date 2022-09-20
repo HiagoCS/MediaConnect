@@ -16,7 +16,7 @@ class PrivilegioSeeder extends Seeder
             ],
             [
                 'nome' => 'vendedor', 
-                'descricao' => 'Nivel fornecido para quem vai trabalhar no site.',
+                'descricao' => 'Nivel fornecido para os profissionais do site.',
                 'senha' => null
             ],
             [
