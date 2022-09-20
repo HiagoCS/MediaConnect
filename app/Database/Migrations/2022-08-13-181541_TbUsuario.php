@@ -25,7 +25,7 @@ class TbUsuario extends Migration
                 'constraint' => 199
             ],
             'cpf' =>[
-                'type' =>'VARCHAR',
+                'type' =>'INTEGER',
                 'constraint' => 15
             ],
             'telefone' =>[
