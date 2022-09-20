@@ -56,10 +56,11 @@ $routes->post('/ad/edit', 'Anuncios::editar');
 $routes->post('/ad/delete', 'Anuncios::excluir');
 
 //Rotas de Avaliação
-$routes->post('/register', 'Avaliacoes::inserir');
-$routes->post('/edit', 'Avaliacoes::editar');
-$routes->post('/delete', 'Avaliacoes::excluir');
-$routes->post('/search', 'Avaliacoes::index');
+$routes->post('/stars/register', 'Avaliacoes::inserir');
+$routes->post('/stars/edit', 'Avaliacoes::editar');
+$routes->post('/stars/delete', 'Avaliacoes::excluir');
+$routes->post('/stars/search', 'Avaliacoes::index');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
