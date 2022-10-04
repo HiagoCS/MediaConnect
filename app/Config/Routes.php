@@ -63,6 +63,7 @@ $routes->post('/stars/search', 'Avaliacoes::index');
 
 //Rotas de Vendas
 $routes->post('/register', 'Vendas::inserir');
+$routes->post('/delete', 'Vendas::excluir');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
