@@ -12,6 +12,16 @@
             );
             $vendaModel->postInserir((array) $venda);
         }
+        public function excluir(){
+            $vendaModel = new \App\Models\VendaModel();
+            $id = $this->request->getPost('id');
+           
+            if(!$id){
+                echo "Erro: nenhum parametro POST entregue!!";
+                return;
+            }
+            $vendaModel->postDelete($id);
+        }
     }
     class Venda{
         public function __construct($id_anuncio, $id_cliente, $status){
