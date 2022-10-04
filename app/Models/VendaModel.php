@@ -47,4 +47,17 @@
                 return;
             }
         }
+        public function postDelete($id){
+            $venda = $this->find($id);
+            if($this->delete($venda->{'id'})){
+                //Sucesso na exclusão!
+                echo 'Sucesso na exclusão (Verificação por ID)';
+                return;
+            }
+            else{
+                //Erro na exclusão!
+                echo "Erro na exclusão (Verificação por ID), Verifique os itens<br>ID = $id";
+                return;
+            }
+        }
     }
