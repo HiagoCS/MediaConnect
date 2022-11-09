@@ -1,0 +1,32 @@
+.centralizar{
+    text-align: center;
+}
+
+/*css titulo*/
+#titulo{
+    text-align: center;
+    background-color: #AB035C;
+    color: #EFD2E1;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+
+}
+
+/*css logo*/
+#logo{
+    width: 35%;
+    height: 15%;
+}
+
+/*css botões*/
+#entrar{
+    background-color: #AB035C;
+    color: #EFD2E1;
+}
+
+.link{
+    color: #AB035C;
+    font-size: small;
+}

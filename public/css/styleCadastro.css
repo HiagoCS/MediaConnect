@@ -1,0 +1,24 @@
+/*css titulo*/
+#titulo{
+    text-align: center;
+    background-color: #AB035C;
+    color: #EFD2E1;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+/*css botão*/
+.botao{
+    text-align: right;
+    padding-top: 3%;
+}
+
+#cadastro{
+    background-color: #AB035C;
+    color: #EFD2E1;
+    padding-left: 10%;
+    padding-right: 10%;
+}

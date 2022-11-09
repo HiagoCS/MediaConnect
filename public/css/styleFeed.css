@@ -1,0 +1,39 @@
+/*style estrelas*/
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+/*style informações do perfil*/
+.informacoes{
+    border: solid 0.3px #FCA9D4;
+    border-radius: 30px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    align-items: center;
+    padding: 1%;
+    background-color: #F9E3EF;
+    text-align: justify;
+}
+
+/*style imagem de perfil*/
+#imgPerfil{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    border: solid 0.3px #FCA9D4;
+}
+
+/*style botão*/
+.btn{
+    background-color: #AB035C;
+    color: #EFD2E1;
+}
+
+.linhaBotao{
+    padding-top: 100%;
+    margin: 5%;
+}

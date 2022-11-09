@@ -1,0 +1,53 @@
+/*style estrelas*/
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.z{
+    border: solid 1px black;
+}
+
+.margem{
+    margin-top: 3%;
+}
+
+#imgPerfil{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    border: solid 0.3px #FCA9D4;
+}
+
+#descricao{
+    background-color: #F9E3EF;
+    border: solid 0.3px #FCA9D4;
+    border-radius: 30px;
+    text-align: justify;
+    padding: 2%;
+    vertical-align: middle;
+    
+}
+
+#trabalhos{
+    margin-top: 3%;
+}
+
+.fotosTrabalhos{
+    height: 100%;
+    width: 100%;
+    border: solid 0.3px #FCA9D4;
+}
+
+.informacoes{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.icons{
+    height: 40px;
+    width:40px;
+}

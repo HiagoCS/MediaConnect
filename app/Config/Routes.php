@@ -35,7 +35,16 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+
+//nome navegador - nome pagina/classe controller - nome método controller
 $routes->get('/', 'Home::index');
+$routes->get('login', 'Home::login');
+$routes->get('cadastro', 'Home::cadastro');
+$routes->get('feed', 'Home::feed');
+$routes->get('perfilSocialMedia', 'Home::perfilSm');
+$routes->get('perfilUsuario', 'Home::perfilUsuario');
+$routes->get('informacoes', 'Home::informacoesPerfil');
+
 
 //Rotas de Usuario
 $routes->post('/user/register', 'Usuarios::inserir');

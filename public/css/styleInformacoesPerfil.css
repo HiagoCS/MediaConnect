@@ -1,0 +1,21 @@
+/*css titulo*/
+#titulo{
+    text-align: center;
+    background-color: #AB035C;
+    color: #EFD2E1;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+/*css botão*/
+#salvar{
+    background-color: #AB035C;
+    color: #EFD2E1;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 2%;
+}
