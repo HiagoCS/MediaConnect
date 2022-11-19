@@ -11,7 +11,7 @@
         <img src="<?=base_url()?>/imagens/logo.png" alt="..." id="logo">
         </div>
     </div>
-    <form method="post" action="feed">
+    <form method="post" action="<?php echo url_to('logarUsuario') ?>">
         <div class="row">
             <div class="col-4 offset-4">
                 <div class="mb-3">

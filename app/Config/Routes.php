@@ -47,10 +47,11 @@ $routes->get('informacoes', 'Home::informacoesPerfil');
 
 
 //Rotas de Usuario
-$routes->post('/user/register', 'Usuarios::inserir');
-$routes->post('/user/login', 'Usuarios::index');
+$routes->post('/user/register', 'Usuarios::inserir', ['as' => 'cadastrarUsuario']);
+$routes->post('/user/login', 'Usuarios::index', ['as' => 'logarUsuario']);
 $routes->post('/user/edit', 'Usuarios::editar');
 $routes->post('/user/delete', 'Usuarios::excluir');
+$routes->post('/user/informacoes', 'InformacoesPerfil::index', ['as' => 'cadastrarInformacoes']);
 
 //Rotas de Servico
 $routes->post('/service/register', 'Profissoes::inserir');

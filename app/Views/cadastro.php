@@ -6,7 +6,7 @@
             <h2>Cadastro</h2>
         </div>
     </div>
-    <form method="POST" action="inserir">
+    <form method="POST" action="<?php echo url_to('cadastrarUsuario') ?>">
         <div class="row">
             <div class="col-10 offset-1">
                 <label for="nome" class="form-label">Digite seu nome:</label>

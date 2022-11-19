@@ -52,22 +52,18 @@
     <!--planos-->
     <div class="row">
         <div class="col-8 offset-2" id="tituloPlano">
-            <h3>Planos</h3>
+            <h3>Versão Premium</h3>
         </div>
     </div>
-    <div class="planos row">
+    <div class="row">
         <div class="col-8 offset-2">
-            <div class="row">
-                <div class="tiposPlano col-3">
-                    plano 1<br>
+            <div class="planos row">
+                <div class="tiposPlano col-6 ">
+                    Versão Premium<br>
                     <button type="button" class="btn">Contratar</button>
                 </div>
-                <div class="tiposPlano col-4 offset-1">
-                    plano 2<br>
-                    <button type="button" class="btn">Contratar</button>
-                </div>
-                <div class="tiposPlano col-3 offset-1">
-                    plano 3<br>
+                <div class="tiposPlano col-6 ">
+                    Versão Premium<br>
                     <button type="button" class="btn">Contratar</button>
                 </div>
             </div>

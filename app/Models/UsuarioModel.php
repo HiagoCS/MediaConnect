@@ -7,12 +7,14 @@
         protected $allowedFields = ['nome', 'email', 'senha', 'cpf', 'telefone', 'cep', 'status'];
         protected $returnType = 'object';
         
-        public function postInserir($user_data){
+        public function postInserir($user_data)
+        {
             //Segundo parametro de set() é o nome do input
             if(count($this->where('email', $user_data['email'])->findAll()) == 0){
-                if($this->insert($user_data)){
+                $idUsuario = $this->insert($user_data);
+                if($idUsuario){
                     //Sucesso no registro!!
-                    echo 'Sucesso no registro!!';
+                    return $idUsuario;
                 }
                 else{
                     //Erro no registro!!
@@ -136,7 +138,7 @@
         }
         public function postLogin($apelido, $senha){
             //Segundo parametro de where() é o nome do input
-            $usuario = $this->where(['nome' => $apelido, 'senha' => md5($senha)])->findAll();
+            $usuario = $this->where(['email' => $apelido, 'senha' => md5($senha)])->findAll();
             if(count($usuario) == 1){
                 $usuario = $usuario[0];
                 if($usuario->{'status'} != 1){
@@ -152,7 +154,7 @@
             }
             else if(count($usuario) == 0){
                 $usuario = $this->where(['email' => $apelido, 'senha' => md5($senha)])->findAll();
-                if(count($userRow) == 1){
+                if(count($usuario) == 1){
                     $usuario = $usuario[0];
                     if($usuario->{'status'} != 1){
                         //Precisa de verificação de e-mail!

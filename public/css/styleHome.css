@@ -31,7 +31,8 @@
 
 .planos{
     text-align: center;
-    /*border: solid 1% black;*/;
+    border: solid 1px #AB035C;
+    border-radius: 30px;
     margin-bottom: 4%;
 }
 
@@ -48,10 +49,8 @@
 }
 
 .tiposPlano{
-    border: solid 1px #AB035C;
     padding-top: 15%;
     padding-bottom: 15%;
-    border-radius: 30px;
 }
 
 .btn{
